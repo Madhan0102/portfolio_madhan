@@ -288,7 +288,7 @@ if choose == "About Me":
             st.write("👨🏼‍💻 Calibre Infotech (Feb 2016 – May 2017): PHP Developer & Website Developer")
             st.write("👨🏼‍💻 Currently, I am enhancing my skills in Data Science and Artificial Intelligence through training at QTree Technologies, preparing to leverage data-driven approaches for solving real-world problems.")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst, Product Manager")
-            st.write("📄 [Resume (1 page)](https://drive.google.com/file/d/164EEVH6BmvC89q2M4WsBNF1JyddDAbNY/view?usp=sharing)")
+            st.write("📄 [Resume (1 page)](https://docs.google.com/document/d/0B0W0TfmuQjv7LUNEQV9MRENVVENiWmZZeVpKakt4VjNYMXpj/edit?resourcekey=0-ePV7xs6o32NsvMLrhdz3zw)")
             st.empty()
         with right_column:
             st.image(img_utown)
@@ -2247,33 +2247,6 @@ elif choose == "Resume":
             file_name="HarryChang_Resume.pdf",
             mime="application/pdf"
         )
-elif choose == "Testimonials": 
-    test_url = "https://drive.google.com/file/d/1ZyTmg_r18sUuuU5JOJBqUb2EP8MnjvJU/view?usp=sharing"  
-    st.header("Testimonials")
-    st.subheader("Some appraisals from my past referees!")
-    st.markdown(pdf_link(test_url, "**Compiled Testimonials**"), unsafe_allow_html=True)  
-    with st.container():  
-        col1, col2, col3 = st.columns((1,1,1))
-        with col1:
-            st.subheader("SCOR")
-            show_pdf("1. SCOR.pdf")
-        with col2:
-            st.subheader("DSDS, NUS")
-            show_pdf("2. DSDS.pdf")
-        with col3:
-            st.subheader("IASG")
-            show_pdf("3. IASG.pdf")
-    with st.container():  
-        col4, col5, col6 = st.columns((1,1,1))
-        with col1:
-            st.subheader("SAF")
-            show_pdf("4. SAF.pdf")
-        with col2:
-            st.subheader("TPJC")
-            show_pdf("5. JC.pdf")
-        with col3:
-            st.subheader("SJI")
-            show_pdf("6. SJI.pdf")
 elif choose == "Contact":
 # Create section for Contact
     #st.write("---")
@@ -2378,11 +2351,11 @@ elif choose == "Contact":
                 social_icons(32, 32, LinkedIn=linkedin_url, GitHub=github_url, Email=email_url),
                 unsafe_allow_html=True)
             st.markdown("")
-            #st.write("© 2023 Harry Chang")
+            #st.write("© 2024 Madhan Kumar N")
             #st.write("[LinkedIn](https://linkedin.com/in/harrychangjr) | [Github](https://github.com/harrychangjr) | [Linktree](https://linktr.ee/harrychangjr)")
         with mid:
             st.empty()
         with image_column:
             st.image(img_ifg)
-st.markdown("*Copyright © 2023 Harry Chang*")
+st.markdown("*Copyright © 2024 Madhan Kumar N*")
 
