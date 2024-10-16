@@ -107,14 +107,14 @@ img_gmss = Image.open("images/gmss.jpg")
 img_sjij = Image.open("images/sjij.jpg")
 img_dsa = Image.open("images/dsa.jpg")
 # Assets for experiences
-img_quest = Image.open("images/questlogo.jpg")
-img_scor = Image.open("images/scor.jpg")
-img_iasg = Image.open("images/iasg.jpg")
+img_lit = Image.open("images/ad-media-logo.png")
+img_scor = Image.open("images/teamads-logo.png")
+img_iasg = Image.open("images/cropped-calibrelogo-4.jpg")
 img_sshsph = Image.open("images/sshsph.jpg")
 img_yll = Image.open("images/yll.jpg")
 img_saf = Image.open("images/saf.jpg")
-img_bitmetrix = Image.open("images/bitmetrix.jpg")
-img_groundup = Image.open("images/groundup.jpg")
+img_bitmetrix = Image.open("images/cropped-calibrelogo-4.jpg")
+img_groundup = Image.open("images/ad-media-logo.png")
 img_hedgedrip = Image.open("images/hedgedrip.jpg")
 # Assets for projects
 image_names_projects = ["ecom", "chatgpt", "videogames", "health", 
@@ -296,16 +296,7 @@ if choose == "About Me":
 elif choose == "Experience":
     #st.write("---")
     st.header("Experience")
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_hedgedrip)
-        with text_column:
-            st.subheader("Product Manager, [HedgeDrip](https://hedgedrip.vercel.app)")
-            st.write("*September 2023 to Present*")
-            st.markdown("""
-            `Figma` `Notion` `Product Management`
-            """)
+
     with st.container():
         image_column, text_column = st.columns((1,5))
         with image_column:
@@ -321,19 +312,7 @@ elif choose == "Experience":
             
             `Python` `Raspberry Pi` `Jira` `Confluence` `Amazon S3` `EC2` `Librosa` `Docker` `Git` `Scikit-Learn` `MLFlow` `YAML` `InfluxDB` `ScyllaDB` `PostgreSQL` `Matplotlib` `Plotly` `Minio`
             """)
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_bitmetrix)
-        with text_column:
-            st.subheader("Data Science Intern, [Bitmetrix](https://bitmetrix.ai)")
-            st.write("*June to July 2023*")
-            st.markdown("""
-            - Built social media scraper using snscrape to scrape Tweets from popular blockchain websites based on rankings from CoinGecko and CoinMarketCap
-            - Constructed webscraper using Streamlit and BeautifulSoup4 to collate news articles from various sources (e.g https://blockchain.news) into Pandas dataframe for future analysis using natural language processing methods
-
-            `Python` `BeautifulSoup4` `snscrape` `Streamlit` `Pandas`
-            """)
+    
     with st.container():
         image_column, text_column = st.columns((1,5))
         with image_column:
@@ -351,69 +330,17 @@ elif choose == "Experience":
     with st.container():
         image_column, text_column = st.columns((1,5))
         with image_column:
-            st.image(img_quest)
+            st.image(img_bitmetrix)
         with text_column:
-            st.subheader("Data Analytics Intern, [Quest](https://quest-inc.co)")
-            st.write("*Feb to May 2022*")
+            st.subheader("Data Science Intern, [Bitmetrix](https://bitmetrix.ai)")
+            st.write("*June to July 2023*")
             st.markdown("""
-            - Conducted cohort analysis and presented Tableau dashboards to company’s co-founders for boosting user acquisition and retention rates of flagship mobile application
-            - Streamlined data cleaning and dashboarding procedures for future data interns using Python (Pandas) and Tableau, resulting in standardised SOPs for company’s product analytics
-            - Wrote test cases for user acceptance testing of ’like’ feature, managing both front-end functionality and back-end usage tracking, resulting in increased user engagement and new downloads
+            - Built social media scraper using snscrape to scrape Tweets from popular blockchain websites based on rankings from CoinGecko and CoinMarketCap
+            - Constructed webscraper using Streamlit and BeautifulSoup4 to collate news articles from various sources (e.g https://blockchain.news) into Pandas dataframe for future analysis using natural language processing methods
 
-            `Python` `R` `Tableau` `Excel` `Figma` `Asana` `ClickUp` `Google Analytics` `Retool`
+            `Python` `BeautifulSoup4` `snscrape` `Streamlit` `Pandas`
             """)
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_sshsph)
-        with text_column:
-            st.subheader("Public Health Intern, [Saw Swee Hock School of Public Health](https://sph.nus.edu.sg/)")
-            st.write("*January to May 2021*")
-            st.markdown("""
-            - Conducted literature reviews and summarized papers related to public health
-            - Drafted case study report on British population health system, including impacts from COVID-19
-            - Collaborated with other students to compare successes and challenges of Britain, Canada and New Zealand’s healthcare systems
-            """)
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_iasg)
-        with text_column:
-            st.subheader("Data Migration Intern, [Immigration@SG LLP](https://iasg.com.sg/)")
-            st.write("*October 2020 to January 2021* | [*Testimonial*](https://drive.google.com/file/d/11qFI-9TMfjOk1OxuyQ9ho9A7D6KuIsXp/view?usp=sharing)")
-            st.markdown("""
-            - Cleaned over 30,000 records using Pandas to facilitate smooth data migration into new CRM system
-            - Derived customer segmentation models using regression models and market basket analysis (association rule mining) to improve company’s marketing strategies
-            - Completed time series analysis using past sales data to forecast future monthly revenue
-
-            `Excel` `ggplot2` `Python` `pandas` `R`
-            """)
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_yll)
-        with text_column:
-            st.subheader("Temporary Management Support Staff, [Yong Loo Lin School of Medicine](https://medicine.nus.edu.sg/)")
-            st.write("*February to June 2019*")
-            st.markdown("""
-            - Answered up to 100 different queries daily regarding undergraduate admissions
-            - Managed venue preparations for admissions interviews involving over 1,000 candidates over the span of 2 weeks
-            - Supported set-up of faculty booth for NUS Open House, with an estimated attendance of 30,000 visitors in one day
-            """)
-    with st.container():
-        image_column, text_column = st.columns((1,5))
-        with image_column:
-            st.image(img_saf)
-        with text_column:
-            st.subheader("Administrative Support Assistant, [Singapore Armed Forces](https://www.mindef.gov.sg/web/portal/mindef/home)")
-            st.write("*January 2017 to January 2019* | [*Testimonial*](https://drive.google.com/file/d/1O6Yu0P65dU8LCSDuXkf9BvlQJoz_5mRW/view?usp=sharing)")
-            st.markdown("""
-            - Assisted in organising division-level In-Camp Trainings, conferences and welfare events
-            - Handled daily administration of Operations Branch, including indentation of office equipment, budget management and food rations
-            - Promoted to Corporal First Class (CFC) for outstanding efforts
-            
-            `Excel` `GeBiz` `GIS` `Outlook` `PowerPoint` `Word`
-            """)
+    
     st.markdown('''
     <style>
     [data-testid="stMarkdownContainer"] ul{
@@ -698,7 +625,6 @@ elif choose == "Education":
     #elif selected == "Module Reviews":
         #st.subheader("Module Reviews")
         #st.write("*Reviews for selected modules taken in university*")
-
 
 elif choose == "Projects":
     # Create section for Projects
