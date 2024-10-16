@@ -67,7 +67,7 @@ footer{
     visibility:visible;
 }
 footer:after{
-    content:'Copyright © 2023 Harry Chang';
+    content:'Copyright © 2024 Madhan Kumar N';
     position:relative;
     color:black;
 }
@@ -87,7 +87,7 @@ def pdf_link(pdf_url, link_text="Click here to view PDF"):
 #lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 # Assets for about me
 img_utown = Image.open("images/utown.JPG")
-img_lh = Image.open("images/lh.jpg")
+img_lh = Image.open(r"images\20230720_121643.jpg")
 img_ifg = Image.open("images/ifg.jpg")
 #Assets for competitions
 img_lit = Image.open("images/legalease.jpg")
@@ -120,7 +120,7 @@ img_hedgedrip = Image.open("images/hedgedrip.jpg")
 image_names_projects = ["ecom", "chatgpt", "videogames", "health", 
                          "biopics", "anime", "word2vec", "cellphone", 
                          "spotify", "map", "gephi", "fob", "get", "ttdb",
-                         "blockchain"]
+                         ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for volunteering
 image_names_vol = ["sdslogo", "sportslogo", "gdsclogo", "csclogo", 
@@ -139,7 +139,6 @@ img_hci = Image.open("images/hci.jpg")
 img_wordcloud = Image.open("images/wordcloud.jpg")
 img_taste = Image.open("images/taste.jpg")
 img_measles = Image.open("images/measles.jpeg")
-img_bmsaew = Image.open("images/bmsaew.png")
 img_dac1 = Image.open("images/dac1.png")
 img_dac2 = Image.open("images/dac2.png")
 # Assets for gallery
@@ -247,7 +246,7 @@ with st.sidebar:
     
     choose = option_menu(
                         "Madhan KuMAR", 
-                        ["About S", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
+                        ["About us", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
                          icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
                          menu_icon="mortarboard", 
                          default_index=0,
@@ -258,11 +257,11 @@ with st.sidebar:
         "nav-link-selected": {"background-color": "#cfcfb4"},
     }
     )
-    youtube_url = "https://www.youtube.com/@harrychangjr"
-    linkedin_url = "https://www.linkedin.com/in/harrychangjr/"
-    github_url = "https://github.com/harrychangjr"
-    wordpress_url = "https://antcabbage.wordpress.com"
-    email_url = "mailto:harrychang.work@gmail.com"
+    youtube_url = ""
+    linkedin_url = ""
+    github_url = ""
+    wordpress_url = ""
+    email_url = ""
     with st.container():
         l, m, r = st.columns((0.11,2,0.1))
         with l:
@@ -284,7 +283,7 @@ if choose == "About Me":
         with left_column:
             st.header("About Me")
             st.subheader("Aspiring Data Analyst/Product Manager")
-            st.write("👋🏻 Hi, I'm Madhan kumar I'm a data science and analytics undergraduate based in Singapore. Having prior relevant experiences in tech, reinsurance and consulting sectors, I am constantly seeking unique internships to broaden my horizons before embarking on my data career upon graduation.")
+            st.write("👋🏻 Hi, I'm Harry! I'm a data science and analytics undergraduate based in Singapore. Having prior relevant experiences in tech, reinsurance and consulting sectors, I am constantly seeking unique internships to broaden my horizons before embarking on my data career upon graduation.")
             st.write("💼 With the COVID-19 pandemic behind us, I believe there is potential for data science to be applied in the retail industry. In response to the increasing demand for data analytics from both online and brick-and-mortar sales, I am thus aiming to enter this industry for my first full-time job.")
             st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play video games and... enjoy eating good food in my free time!")
             st.write("👨🏼‍💻 Academic interests: Data Visualization, Market Basket Analysis, Recommendation Systems, Natural Language Processing")
