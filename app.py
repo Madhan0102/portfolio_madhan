@@ -716,7 +716,7 @@ elif choose == "Projects":
             # st.write("[Github Repo](https://github.com/harrychangjr/sales-prediction)")
             mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/blockchain-webscraping",)
         with image_column:
-            st.image(images_projects[14])
+            st.image(images_projects[1])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
@@ -2234,17 +2234,17 @@ elif choose == "Blog":
             #st.write("...and now add `?analytics=on` to the URL to see the analytics dashboard 👀")
 
 elif choose == "Resume":   
-    resume_url = "https://drive.google.com/file/d/164EEVH6BmvC89q2M4WsBNF1JyddDAbNY/view?usp=sharing"
+    resume_url = "https://docs.google.com/document/d/0B0W0TfmuQjv7LUNEQV9MRENVVENiWmZZeVpKakt4VjNYMXpj/edit?resourcekey=0-ePV7xs6o32NsvMLrhdz3zw"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
     st.markdown(pdf_link(resume_url, "**Resume (1 page)**"), unsafe_allow_html=True)
-    show_pdf("HarryChang_Resume.pdf")
-    with open("HarryChang_Resume.pdf", "rb") as file:
+    show_pdf("madhan.pdf")
+    with open("madhan.pdf", "rb") as file:
         btn = st.download_button(
             label="Download Resume (1 page)",
             data=file,
-            file_name="HarryChang_Resume.pdf",
+            file_name="madhan.pdf",
             mime="application/pdf"
         )
 elif choose == "Contact":
