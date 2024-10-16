@@ -87,7 +87,7 @@ def pdf_link(pdf_url, link_text="Click here to view PDF"):
 #lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 # Assets for about me
 img_utown = Image.open("images/utown.JPG")
-img_lh = Image.open(r"images\20230720_121643.jpg")
+img_lh = Image.open(r"C:\Users\conne\OneDrive\Documents\GitHub\portfolio_madhan\images\20230720_121643.jpg")
 img_ifg = Image.open("images/ifg.jpg")
 #Assets for competitions
 img_lit = Image.open("images/legalease.jpg")
@@ -1495,29 +1495,7 @@ elif choose == "Blog":
 
         So who am I – really? To answer this, I would compare myself to 2 characters that I have enjoyed following on television. The first would be Alex Moran, the protagonist of sitcom Blue Mountain State. His character is that of a second-string quarterback for the majority of the show, only aiming to be an “Average Joe” after he graduates from college. The second would be Orange Cassidy, a professional wrestler whose gimmick is based on being the “King of Sloth Style”, otherwise only trying to win when necessary, but doesn’t bother otherwise.
         """)
-        with st.container():
-            col1, col2, col3 = st.columns((1,3,1))
-            with col1:
-                st.empty()
-            with col2:
-                st.image(img_bmsaew, caption = "From left to right: Alex Moran (played by Darin Brooks in Blue Mountain State), Orange Cassidy", width=600, )
-            with col3:
-                st.empty()
-        st.markdown("""
-        Drawing inspiration from these two characters, I would say I have now lowered the expectations that I have set for myself, and have learnt to be more appreciative for the opportunities that I have instead. It’s not wrong to be surrounded by driven and passionate people in your circle, but at the end of the day, I feel it’s not worth putting in exceptional efforts if that means sacrificing your own personal well-being.
-
-        And back to my self-reflection this semester: even though I’m not graduating within the next few weeks, it was still satisfying to live as though I was – with minimal commitments, barely dropping by physical lessons, and even finishing a final paper within one-third of the allocated duration before leaving early. It was indeed a breath of fresh air that I needed to rebuild myself for the better in the long run. It felt lonely at times, but when you can find happiness and contentment in being alone, what’s there to stop you from enjoying yourself in better scenarios?
-
-        Throughout this time, it was only recently that I finally figured out what my career goals are. Many may have realized this way before me – but it’s okay, because everyone takes their own time to figure their lives out gradually. Given my unorthodox undergraduate life, I would say I’m more than grateful to be more clear about what I want in the end. I wish I graduated now, but perhaps this was a blessing in disguise.
-
-        > “Success is not defined by either wealth or status. Success is about relations, friends, family and your belief in stewardship. Those will bring you to many places.”
-
-        Those were the parting words from my boss in national service. Although his intentions are good, I would say that I define success a bit differently – being content with whatever you have at the present moment. 
-
-        With that being said, I’ve learnt that there’s nothing wrong being an outlier – in fact, we are all outliers in our own right, because we are the protagonists in our own story that makes us unique. As my GP teacher in junior college once said, you need to develop yourself with an interesting story and cannot be boring – and I hope whatever that I have written here illustrates an engaging narrative that can be enjoyed by all.
-
-        To end off, I’d like to dedicate this write-up to those graduating soon, as well as others like myself, who had an unconventional journey during university for one reason or another. Even with multiple mishaps along the way, I believe that everyone can eventually find their own success as an outlier.
-        """)
+    
     elif selected == "Should the statue of Sir Stamford Raffles disappear for good?":
         st.subheader("Should the statue of Sir Stamford Raffles disappear for good?")
         st.write("April 29, 2022 | [Essays](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Take%20Home%20Test.pdf)")
