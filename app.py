@@ -243,10 +243,9 @@ with st.sidebar:
             st.image(img_lh, width=175)
         with r:
             st.empty()
-    
     choose = option_menu(
-                        "Madhan KuMAR", 
-                        ["About us", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
+                        "Madhan Kumar N", 
+                        ["About Me","Experience", "Technical Skills", "Education", "Projects", "Competitions", "Blog","Resume","Contact"],
                          icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
                          menu_icon="mortarboard", 
                          default_index=0,
