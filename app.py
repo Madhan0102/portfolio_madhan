@@ -257,10 +257,10 @@ with st.sidebar:
     }
     )
     youtube_url = ""
-    linkedin_url = ""
-    github_url = ""
+    linkedin_url = "https://www.linkedin.com/in/madhan0102"
+    github_url = "https://github.com/Madhan0102"
     wordpress_url = ""
-    email_url = ""
+    email_url = "connectmadhan01@gmail.com"
     with st.container():
         l, m, r = st.columns((0.11,2,0.1))
         with l:
@@ -707,7 +707,7 @@ elif choose == "Projects":
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Blockchain Social Media Webscraper")
+            st.subheader("")
             st.write("*Project for US-based stealth startup, Bitmetrix.ai*")
             st.markdown("""
             - Utilised snscrape to scrape tweets from top blockchain websites such as CoinGecko and CoinMarketCap
