@@ -86,7 +86,7 @@ def pdf_link(pdf_url, link_text="Click here to view PDF"):
 # Load assets
 #lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 # Assets for about me
-img_utown = Image.open("images/utown.JPG")
+img_utown = Image.open("images/about.jpg")
 img_lh = Image.open("images/20230720_121643.jpg")
 img_ifg = Image.open("images/ifg.jpg")
 #Assets for competitions
@@ -273,7 +273,7 @@ with st.sidebar:
             st.empty()
 
 st.write('<style>div.block-container{padding-top:0rem;}</style>', unsafe_allow_html=True)
-st.title("Harry Chang")
+st.title("Madhan Kumar N")
 # Create header
 if choose == "About Me":
     #aboutme.createPage()
