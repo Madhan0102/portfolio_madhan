@@ -281,41 +281,17 @@ if choose == "About Me":
         left_column, middle_column, right_column = st.columns((1,0.2,0.5))
         with left_column:
             st.header("About Me")
-            st.subheader("Aspiring Data Analyst/Product Manager")
-            st.write("👋🏻 Hi, I'm Harry! I'm a data science and analytics undergraduate based in Singapore. Having prior relevant experiences in tech, reinsurance and consulting sectors, I am constantly seeking unique internships to broaden my horizons before embarking on my data career upon graduation.")
-            st.write("💼 With the COVID-19 pandemic behind us, I believe there is potential for data science to be applied in the retail industry. In response to the increasing demand for data analytics from both online and brick-and-mortar sales, I am thus aiming to enter this industry for my first full-time job.")
-            st.write("🏋🏻 In addition, I like to exercise in the gym, run, write, play video games and... enjoy eating good food in my free time!")
-            st.write("👨🏼‍💻 Academic interests: Data Visualization, Market Basket Analysis, Recommendation Systems, Natural Language Processing")
+            st.subheader("Data Scientist | AI Developer | Machine Learning Enthusiast")
+            st.write("👋🏻 Hi, I'm Madhan! have over 4 years of experience in web development, with a focus on PHP development, website management, SEO, and Google My Business (GMB). My career highlights include:")
+            st.write("💼 Ad Media (July 2019 – Present): PHP Developer, Website Developer, SEO & GMB Specialist.")
+            st.write("🏋🏻 Team Ads (Aug 2017 – March 2018): PHP Developer")
+            st.write("👨🏼‍💻 Calibre Infotech (Feb 2016 – May 2017): PHP Developer & Website Developer")
+            st.write("👨🏼‍💻 Currently, I am enhancing my skills in Data Science and Artificial Intelligence through training at QTree Technologies, preparing to leverage data-driven approaches for solving real-world problems.")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst, Product Manager")
             st.write("📄 [Resume (1 page)](https://drive.google.com/file/d/164EEVH6BmvC89q2M4WsBNF1JyddDAbNY/view?usp=sharing)")
-        with middle_column:
             st.empty()
         with right_column:
             st.image(img_utown)
-elif choose == "Site Overview":   
-    #overview.createPage()
-    st.header("Site Overview")
-    st.markdown("""
-    Initally creating this as a portfolio website in the form of an extended resume, I came to discover the uniqueness of Streamlit as compared to typical front-end frameworks such as Angular and Bootstrap. Even though Streamlit is primarily used as a web application for dashboarding, its extensive features make it more aesthetically appealing to explore with as compared to alternatives such as Plotly and Shiny.
-    
-    With the convenience of using Python as a beginner-friendly programming language, I have now decided to evolve this personal project into a time capsule - documenting key moments and achievements that I have attained since commencing my formal education at 7 years old. In addition, should I be successful in completing this project, I intend to provide my codes as open-source, so that other students can document their educational journey in a similar manner.
-
-    A video will also be embedded in this section to provide a detailed tour of this entire web application and its features.
-
-    """)
-    with st.container():
-            col1, col2, col3 = st.columns((1,3,1))
-            with col1:
-                st.empty()
-            with col2:
-                st.video("https://youtu.be/1QlgizeKg44")
-            with col3:
-                st.empty()
-    st.markdown("""
-    *For an optimal experience, do browse this site on desktop!*
-
-    Updated May 1, 2023
-    """)
 # Create section for Work Experience
 elif choose == "Experience":
     #st.write("---")
