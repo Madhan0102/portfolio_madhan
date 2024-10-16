@@ -2273,7 +2273,7 @@ elif choose == "Contact":
     with st.container():
         text_column, mid, image_column = st.columns((1,0.2,0.5))
         with text_column:
-            st.write("Let's connect! You may either reach out to me at harrychang.work@gmail.com or use the form below!")
+            st.write("Let's connect! You may either reach out to me at connectmadhan01@gmail.com or use the form below!")
             #with st.form(key='columns_in_form2',clear_on_submit=True): #set clear_on_submit=True so that the form will be reset/cleared once it's submitted
                 #st.write('Please help us improve!')
                 #Name=st.text_input(label='Your Name',
@@ -2344,15 +2344,15 @@ elif choose == "Contact":
 
 
             st.write("Alternatively, feel free to check out my social accounts below!")
-            linkedin_url = "https://www.linkedin.com/in/harrychangjr/"
-            github_url = "https://github.com/harrychangjr"
-            email_url = "mailto:harrychang.work@gmail.com"
+            linkedin_url = "https://www.linkedin.com/in/madhan0102/"
+            github_url = "https://github.com/Madhan0102"
+            email_url = "mailto:connectmadhan01@gmail.com"
             st.markdown(
                 social_icons(32, 32, LinkedIn=linkedin_url, GitHub=github_url, Email=email_url),
                 unsafe_allow_html=True)
             st.markdown("")
             #st.write("© 2024 Madhan Kumar N")
-            #st.write("[LinkedIn](https://linkedin.com/in/harrychangjr) | [Github](https://github.com/harrychangjr) | [Linktree](https://linktr.ee/harrychangjr)")
+            #st.write("[LinkedIn](https://www.linkedin.com/in/madhan0102/) | [Github](https://github.com/Madhan0102) | [Linktree]()")
         with mid:
             st.empty()
         with image_column:
