@@ -246,7 +246,7 @@ with st.sidebar:
             st.empty()
     
     choose = option_menu(
-                        "Harry Chang", 
+                        "Madhan KuMAR", 
                         ["About Me", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume", "Testimonials", "Contact"],
                          icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
                          menu_icon="mortarboard", 
