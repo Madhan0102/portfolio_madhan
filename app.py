@@ -104,7 +104,7 @@ img_nus = Image.open("images/clg.jpg")
 img_poc = Image.open("images/Karpagam.jpg")
 img_gmss = Image.open("images/sslc.png")
 img_sjij = Image.open("images/kkd.jpeg")
-img_dsa = Image.open("images/sslc.png")
+img_dsa = Image.open("images/pg.jpg")
 # Assets for experiences
 
 img_lit = Image.open("images/ad-media-logo.png")
