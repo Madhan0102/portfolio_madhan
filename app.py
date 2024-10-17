@@ -332,15 +332,15 @@ elif choose == "Experience":
         with image_column:
             st.image(img_bitmetrix)
         with text_column:
-            st.subheader("Data Science Intern, [Bitmetrix](https://bitmetrix.ai)")
-            st.write("*June to July 2023*")
+            st.subheader("PHP Developer and Website Developer, [Calibre Infotech](https://calibreinfotech.in/)")
+            st.write("*Calibre Infotech — August 2017 - March 2018* | [*Testimonial*](https://drive.google.com/file/d/17-VLkbPDOR6LzkJx7oW7sMkx21hEJmbW/view?usp=drive_link)")
             st.markdown("""
-            - Built social media scraper using snscrape to scrape Tweets from popular blockchain websites based on rankings from CoinGecko and CoinMarketCap
-            - Constructed webscraper using Streamlit and BeautifulSoup4 to collate news articles from various sources (e.g https://blockchain.news) into Pandas dataframe for future analysis using natural language processing methods
+            - I worked as a PHP Developer and Website Developer at Calibre Infotech from February 2016 to May 2017
+            - My responsibilities included designing and developing dynamic websites using PHP, ensuring smooth functionality, integrating databases, and collaborating with clients to create responsive, user-friendly websites tailored to their needs.
 
-            `Python` `BeautifulSoup4` `snscrape` `Streamlit` `Pandas`
+            `PHP` `MYSQL` `HTML` `CSS` `JAVA SCRIPT`
             """)
-    
+
     st.markdown('''
     <style>
     [data-testid="stMarkdownContainer"] ul{
