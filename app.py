@@ -301,15 +301,16 @@ elif choose == "Experience":
         with image_column:
             st.image(img_groundup)
         with text_column:
-            st.subheader("Data Science Intern, [Groundup.ai](https://groundup.ai)")
-            st.write("*July to December 2023 (Expected)*")
+            st.subheader("Technical Role (PHP Developer) [AD MEDIA](https://admediacbe.in/)")
+            st.subheader("Ad Media – Coimbatore, India")
+            st.write(" Jul 2019 - Jul 2022  ")
             st.markdown("""
-            - Deployed sound sensors using Raspberry Pi technology to acquire real-time noise data from naval vessels and support comprehensive analysis using spectrograms for anomaly detection
-            - Utilised Librosa, Matplotlib and Scikit-Learn to detect anomalies for predictive maintenance of machines using spectrograms and principal component analysis (PCA)
-            - Leveraged AWS CloudFormation and YAML to script automatic configuration of Amazon S3 buckets, leading to significant reduction in manual setup time and minimizing potential for human error
-            - Collaborated with Product Lead, AI Lead and Software Engineers to improve usability and customization for sound predictive maintenance dashboard
+            -  Developed and maintained over 20 dynamic websites for clients, focusing on SEO optimization and responsiveness.
+            - My responsibilities span a wide range, from developing dynamic websites using PHP to optimizing web content for search engines to improve rankings and drive traffic
+            - I also manage Google My Business (GMB) profiles, enhancing local business visibility.
+            - This diverse experience has strengthened my technical skills and digital marketing expertise, allowing me to contribute to the company's online presence and growth effectively
             
-            `Python` `Raspberry Pi` `Jira` `Confluence` `Amazon S3` `EC2` `Librosa` `Docker` `Git` `Scikit-Learn` `MLFlow` `YAML` `InfluxDB` `ScyllaDB` `PostgreSQL` `Matplotlib` `Plotly` `Minio`
+            `PHP` `MYSQL` `HTML` `CSS` `JAVA SCRIPT` `SEO` `GMB` `WORDPRESS` `ECOMMECNCE` 
             """)
     
     with st.container():
@@ -317,14 +318,14 @@ elif choose == "Experience":
         with image_column:
             st.image(img_scor)
         with text_column:
-            st.subheader("Actuarial Intern, [SCOR](https://scor.com)")
-            st.write("*May to August 2022* | [*Testimonial*](https://drive.google.com/file/d/1seUP5OcXV5irA1Y1qt0cKnd7uQnLJLzw/view?usp=share_link)")
+            st.subheader("PHP Developer & E-commerce Website Developer, [TEAM ADS](https://teamads.com/)")
+            st.write("*Team Ads — August 2017 - March 2018* | [*Testimonial*](https://drive.google.com/file/d/17-VLkbPDOR6LzkJx7oW7sMkx21hEJmbW/view?usp=drive_link)")
             st.markdown("""
-            - Performed actuarial analysis of reinsurance treaties in various APAC markets, including entry of client portfolio and loss data into xAct (treaty pricing system)
-            - Regularly updated and analysed risk profiles and claims databases for insurance markets in Pakistan, Thailand and Vietnam
-            - Trained machine learning models (logistic regression, random forest) to predict insurance claims, with an average accuracy of 80% for each model
-
-            `Excel` `Python` `R` `xAct` `VBA`
+            - At Team Ads, from August 2017 to March 2018, I worked as a PHP developer and e-commerce website developer. My role involved designing and developing dynamic, user-friendly websites with PHP, enhancing site functionality, and ensuring smooth integration with databases
+            - I also collaborated with clients to meet their specific business needs, focusing on delivering responsive and optimized e-commerce platforms.
+            - Debugged and resolved issues to ensure seamless user experience across different browsers and devices.
+                        
+            `PHP, HTML, CSS, JavaScript` `MySQL, Database Integration` `E-commerce Platforms (e.g., Magento, opencart,prestashop.)` `Responsive Design & Web Optimization`, `Client Collaboration & Requirement Analysis`.
             """)
     with st.container():
         image_column, text_column = st.columns((1,5))
