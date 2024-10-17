@@ -116,7 +116,7 @@ img_bitmetrix = Image.open("images/cropped-calibrelogo-4.jpg")
 img_groundup = Image.open("images/ad-media-logo.png")
 img_hedgedrip = Image.open("images/hedgedrip.jpg")
 # Assets for projects
-image_names_projects = ["ayu", "bhavya", "car", "dc", 
+image_names_projects = ["ayu","bhavya","car", "dc", 
                          "diabetes", "eashwar", "gireesh", "gold", 
                          "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student"
                          ]
