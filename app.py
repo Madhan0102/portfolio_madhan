@@ -99,13 +99,12 @@ img_shopee = Image.open("images/shopee.png")
 img_sbcc = Image.open("images/sbcc.png")
 img_runes = Image.open("images/runes.png")
 # Assets for education
-img_sji = Image.open("images/sji.jpg")
-img_tpjc = Image.open("images/tpjc.jpg")
-img_nus = Image.open("images/nus.jpeg")
-img_poc = Image.open("images/poc.jpg")
-img_gmss = Image.open("images/gmss.jpg")
-img_sjij = Image.open("images/sjij.jpg")
-img_dsa = Image.open("images/dsa.jpg")
+img_sji = Image.open("images/sslc.png")
+img_nus = Image.open("images/clg.jpg")
+img_poc = Image.open("images/Karpagam.jpg")
+img_gmss = Image.open("images/sslc.png")
+img_sjij = Image.open("images/sslc.png")
+img_dsa = Image.open("images/sslc.png")
 # Assets for experiences
 img_lit = Image.open("images/ad-media-logo.png")
 img_scor = Image.open("images/teamads-logo.png")
@@ -117,9 +116,9 @@ img_bitmetrix = Image.open("images/cropped-calibrelogo-4.jpg")
 img_groundup = Image.open("images/ad-media-logo.png")
 img_hedgedrip = Image.open("images/hedgedrip.jpg")
 # Assets for projects
-image_names_projects = ["ecom", "chatgpt", "videogames", "health", 
-                         "biopics", "anime", "word2vec", "cellphone", 
-                         "spotify", "map", "gephi", "fob", "get", "ttdb",
+image_names_projects = ["ayu", "bhavya", "car", "dc", 
+                         "diabetes", "eashwar", "gireesh", "gold", 
+                         "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student"
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for volunteering
@@ -354,7 +353,7 @@ elif choose == "Experience":
 elif choose == "Technical Skills":
     #st.write("---")
     st.header("Technical Skills")
-    txt3("Programming Languages","`R`, `Python`, `SQL`, `Java`, `Stata`, `MATLAB`")
+    txt3("Programming Languages","`C`, `Python`, `SQL`, `Java`, `C++`, `PHP`")
     txt3("Academic Interests","`Data Visualization`, `Market Basket Analysis`, `Recommendation Systems`, `Natural Language Processing`")
     txt3("Data Visualization", "`ggplot2`, `matplotlib`, `seaborn`, `Plotly`, `Librosa`, `Folium`, `Gephi`, `GIS`, `Tableau`, `Power BI`, `Google Data Studio`, `Domo`, `Google Analytics`")
     txt3("Database Systems", "`MySQL`, `PostgreSQL`, `SQLite`, `NoSQL`, `Google BigQuery`, `Cloud Firestore`, `InfluxDB`, `ScyllaDB`")
@@ -405,7 +404,7 @@ elif choose == "Education":
         with st.container():
             image_column, text_column = st.columns((1,2.5))
             with image_column:
-                st.image(img_tpjc)
+                st.image()
             with text_column:
                 st.subheader("GCE A Level - [Tampines Junior College](https://www.tmjc.moe.edu.sg/our-heritage/tampines-jc/) (2015 - 2016)")
                 st.write("Coursework: H2 Chemistry, H2 Economics, H2 Mathematics, H1 Project Work, H1 Chinese, H1 History")
