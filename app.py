@@ -99,13 +99,14 @@ img_shopee = Image.open("images/shopee.png")
 img_sbcc = Image.open("images/sbcc.png")
 img_runes = Image.open("images/runes.png")
 # Assets for education
-img_sji = Image.open("images/sslc.png")
+img_sji = Image.open("images/kkd.jpeg")
 img_nus = Image.open("images/clg.jpg")
 img_poc = Image.open("images/Karpagam.jpg")
 img_gmss = Image.open("images/sslc.png")
-img_sjij = Image.open("images/sslc.png")
+img_sjij = Image.open("images/kkd.jpeg")
 img_dsa = Image.open("images/sslc.png")
 # Assets for experiences
+
 img_lit = Image.open("images/ad-media-logo.png")
 img_scor = Image.open("images/teamads-logo.png")
 img_iasg = Image.open("images/cropped-calibrelogo-4.jpg")
@@ -121,9 +122,9 @@ image_names_projects = ["ayu","bhavya","car", "dc",
                          "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student"
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
-# Assets for volunteering
-image_names_vol = ["sdslogo", "sportslogo", "gdsclogo", "csclogo", 
-                         "nussulogo", "sklogo", "simlogo", "tpjclogo", 
+# Assets for Certificate of training
+image_names_vol = ["PHP", "c", "d", "e", 
+                         "k", "m", "simlogo", "tpjclogo", 
                          "sjilogo", "nuspc", "hcs", "fintech"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
 # Assets for blog
@@ -244,8 +245,8 @@ with st.sidebar:
             st.empty()
     choose = option_menu(
                         "Madhan Kumar N", 
-                        ["About Me","Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume","Contact"],
-                         icons=['person fill','clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip','envelope'],
+                        ["About Me","Experience", "Technical Skills", "Education", "Projects", "Competitions", "Certificate of training", "Blog", "Gallery", "Resume","Contact"],
+                         icons=['person fill','clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'star fill', 'pencil square', 'image', 'paperclip','envelope'],
                          menu_icon="mortarboard", 
                          default_index=0,
                          styles={
@@ -383,105 +384,37 @@ elif choose == "Education":
             with image_column:
                 st.image(img_nus)
             with text_column:
-                st.subheader("Bachelor of Science - [Data Science and Analytics](https://www.stat.nus.edu.sg/wp-content/uploads/sites/8/2022/12/NUS-CHS-DSA-Print-FA.pdf), [National University of Singapore](https://nus.edu.sg) (2020-2024)")
-                st.write("Relevant Coursework: Computers and the Humanities, Convex Optimization, Data Science in Practice, Data Structures and Algorithms, Data Visualization, Database Technology and Management, Linear Algebra, Multivariable Calculus, Optimization for Large-Scale Data-Driven Inference, Probability, Programming Tools for Economics, Regression Analysis, Statistical Learning")
-                st.markdown("""
-                - [NUS Product Club](https://linkedin.com/company/nusproductclub) - Co-founder & President (2023-24)
-                - [NUS Statistics and Data Science Society](https://sites.google.com/view/nussds/home) - President (2022), Marketing Director (2021-22)
-                - [Google Developer Student Clubs NUS](https://dsc.comp.nus.edu.sg/) - Deputy Head of Finance (2021-22)
-                """)
+                st.subheader("Master of Computer Applications (MCA) - [Karpagam College of Engineering,Coimbatore](https://kce.ac.in/) (2012-2015)")
+                st.write("I hold a Master of Computer Applications (MCA) degree, which I completed in 2015 from Karpagam College of Engineering, Coimbatore, with an impressive 84.4% score. This program enhanced my skills in software development, database management, and system analysis, equipping me with a strong foundation in computer science concepts and practical applications. The rigorous curriculum, combined with hands-on projects, enabled me to master various programming languages, algorithms, and software engineering techniques. This qualification has significantly contributed to my professional growth and technical expertise in the IT industry.")
+                
         with st.container():
             image_column, text_column = st.columns((1,2.5))
             with image_column:
                 st.image(img_poc)
             with text_column:
-                st.subheader("Bachelor of Science - Pharmaceutical Science, [National University of Singapore](https://nus.edu.sg) (2019)")
-                st.write("Coursework: Foundations of Medicinal Chemistry, Pharmaceutical Biochemistry, Statistics for Life Sciences, Human Anatomy and Physiology, Quantitative Reasoning")
-                st.markdown("""
-                Withdrew from course in 2020, before performing a clean slate transfer to pursue a Bachelor's Degree in Data Science and Analytics
-                - [NUS Students' Science Club](https://www.nussciencelife.com/) - Marketing Executive, Welfare Subcommittee
-                - Pharmaceutical Science (Class of 2023) - Assistant Class Representative
-                """)
-        with st.container():
-            image_column, text_column = st.columns((1,2.5))
-            with image_column:
-                st.image()
-            with text_column:
-                st.subheader("GCE A Level - [Tampines Junior College](https://www.tmjc.moe.edu.sg/our-heritage/tampines-jc/) (2015 - 2016)")
-                st.write("Coursework: H2 Chemistry, H2 Economics, H2 Mathematics, H1 Project Work, H1 Chinese, H1 History")
-                st.markdown(""" 
-                - Track and Field - 100m (2016 A Division Semi-finalist), 200m, 4x100m
-                - TPJC Economics and Financial Literacy Fair 2015 - Games Facilitator
-                """)
+                st.subheader("Bachelor of Science -(BSc) in Computer Science , [Karpagam University, Coimbatore](https://kahedu.edu.in/) (2009-2012)")
+                st.write("I completed my Bachelor of Science (BSc) in Computer Science from Karpagam University, Coimbatore, in 2012, securing a commendable 74.5%. This academic journey provided me with a strong foundation in programming, algorithms, data structures, and system design. I gained practical experience through various projects and coursework, which helped me develop problem-solving skills and critical thinking. The program equipped me with essential knowledge of computer systems, software development, and emerging technologies, preparing me for real-world challenges in the IT industry and laying the groundwork for further studies in the field")
+               
+    
         with st.container():
             image_column, text_column = st.columns((1,2.5))
             with image_column:
                 st.image(img_sji)
             with text_column:
-                st.subheader("GCE O Level - [Saint Joseph's Institution](https://www.sji.edu.sg/) (2012 - 2014)")
-                st.write("Coursework: English, Mathematics, Additional Mathematics, Physics, Chemistry, History, Geography Elective, Chinese")
-                st.markdown(""" 
-                - Track and Field (Long Jump, 100m)
-                - [Business Design Thinking](https://www.sp.edu.sg/sp/news/sp/Secondary-students-learn-to-innovate)
-                - Josephian International Experience Programme (Siem Reap, Cambodia)
-                """)
+                st.subheader("Higher Secondary Certificate (HSC)- [Government Higher Secondary School, Kinathukadavu](https://schools.org.in/) (2009)")
+                st.write("Coursework: Tamil, English, Mathematics, Additional Mathematics, Physics, Chemistry,botany, zoology.")
+                st.write("The user completed their Higher Secondary Certificate (HSC) at Government Higher Secondary School, Kinathukadavu, in 2009, achieving a percentage of 63%.")
         with st.container():
             image_column, text_column = st.columns((1,2.5))
             with image_column:
                 st.image(img_gmss)
             with text_column:
-                st.subheader("Secondary One - [Geylang Methodist School (Secondary)](https://www.geylangmethodistsec.moe.edu.sg/) (2011)")
-                st.write("Coursework: English, Mathematics, Science, History, Geography, Literature, Chinese, Design & Technology, Home Economics")
-                st.markdown(""" 
-                - Volleyball
-                """)
-        with st.container():
-            image_column, text_column = st.columns((1,2.5))
-            with image_column:
-                st.image(img_sjij)
-            with text_column:
-                st.subheader("Primary School Leaving Examination - [Saint Joseph's Institution Junior](https://www.sjijunior.moe.edu.sg/) (2005 - 2010)")
-                st.write("Coursework: English, Mathematics, Science, Chinese, Higher Chinese")
-                st.markdown(""" 
-                - Art Club
-                """)
+                st.subheader("Secondary School Leaving Certificate (SSLC) - [Government High School, Muthugoundanur)](https://schools.org.in/) (2007)")
+                st.write("Coursework: English, Mathematics, Science, Tamil, Geography, Economics")
+                st.write("")
     elif selected == "Modules":
         st.subheader("Modules")
         st.write("*List of modules taken at National University of Singapore*")
-        with st.container():
-            sem1, mid, sem2 = st.columns((1,0.1,1))
-            with sem1:
-                st.write("**Academic Year 2019/20 Semester 1**")
-                st.markdown("""
-                |Code|Module Title                       |Workload|
-                |--------|--------------------------------------|---------|
-                |AY1130| Human Anatomy and Physiology I       |4 MCs|
-                |GER1000| Quantitative Reasoning              |4 MCs|
-                |PR1110A| Foundations for Medicinal Chemistry |4 MCs|
-                |PR1111A|Pharmaceutical Biochemistry          |4 MCs|
-                |ST1232| Statistics for Life Sciences         |4 MCs|
-                """)
-                st.write("")
-                st.markdown("""
-                Total Workload for Semester: **20 Modular Credits (MCs)**
-                """)
-            with mid:
-                st.empty()
-            with sem2:
-                st.write("**Academic Year 2020/21 Semester 1**")
-                st.markdown("""
-                |Code|Module Title                       |Workload|
-                |--------|--------------------------------------|---------|
-                |CS1010S|Programming Methodology|4 MCs|
-                |DSA1101|Introduction to Data Science|4 MCs|
-                |GER1000|Quantitative Reasoning|4 MCs|
-                |MA1102R|Calculus|4 MCs|
-                |SP1541|Exploring Science Communication Through Popular Science|4 MCs|
-                """)
-                st.write("")
-                st.markdown("""
-                Total Workload for Semester: **20 Modular Credits (MCs)**
-                """)
         with st.container():
             sem1, mid, sem2 = st.columns((1,0.1,1))
             with sem1:
@@ -924,8 +857,8 @@ elif choose == "Competitions":
             st.write("2D pixel art created using Pillow (PIL) Library in Python")
             #st.write("[Github Repo](https://github.com/harrychangjr/runes)")
             mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/runes",)
-elif choose == "Volunteering":
-    st.header("Volunteering")
+elif choose == "Certificate of training":
+    st.header("Certificate of training")
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
