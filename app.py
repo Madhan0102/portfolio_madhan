@@ -244,8 +244,8 @@ with st.sidebar:
             st.empty()
     choose = option_menu(
                         "Madhan Kumar N", 
-                        ["About Me","Experience", "Technical Skills", "Education", "Projects", "Competitions", "Blog","Resume","Contact"],
-                         icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip', 'star fill', 'envelope'],
+                        ["About Me", "Site Overview", "Experience", "Technical Skills", "Education", "Projects", "Competitions", "Volunteering", "Blog", "Gallery", "Resume","Contact"],
+                         icons=['person fill', 'globe', 'clock history', 'tools', 'book half', 'clipboard', 'trophy fill', 'heart', 'pencil square', 'image', 'paperclip','envelope'],
                          menu_icon="mortarboard", 
                          default_index=0,
                          styles={
