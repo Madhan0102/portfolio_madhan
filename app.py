@@ -566,75 +566,93 @@ elif choose == "Projects":
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("")
-            st.write("*Car Price Prediction*")
+            st.subheader("Car Price Prediction App")
+            st.write("*The goal of this project is to predict the price of a car using a machine learning algorithm.*")
             st.markdown("""
-            - Utilised snscrape to scrape tweets from top blockchain websites such as CoinGecko and CoinMarketCap
-            - Built webscraper using BeautifulSoup4 to scrape content from fintech news websites such as https://blockchain.news
+            - The Car Price Prediction project is a practical example of how machine learning can be applied to real-world business problems. By using historical car data, the project can offer valuable insights for car buyers and sellers, making the process of pricing cars more efficient and accurate.
+            -  Used algorithms like Linear Regression, Random Forest, and XGBoost for model training. The project also includes an interactive Streamlit web application for users to input car details and get real-time price predictions. This project demonstrates expertise in data analysis, machine learning model deployment, and user-friendly web application design.
             """)
+            st.write("Machine Learning · Data Analytics · Data Science · Data Visualization")
             # st.write("[Github Repo](https://github.com/harrychangjr/sales-prediction)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/blockchain-webscraping",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/carprice_predictions")
+            mention(label="Streamlit App", icon="streamlit", url="https://carpricepredictions-xkiumszqywxhrznnwd6nrt.streamlit.app/",)          
         with image_column:
-            st.image(images_projects[1])
+            st.image(images_projects[2])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Enhanced TikTok Analytics Dashboard")
-            st.write("*Self-initiated project*")
+            st.subheader("Software developer salary prediction")
+            st.write("*Developed a machine learning model to predict the salaries of software developers based on multiple factors such as years of experience, skills, education level, location, and company size*")
             st.markdown("""
-            - Provided options to plot Tiktok user overview data using 3D lineplots, 3D scatterplots, 3D surfaceplots and radar chart from Plotly
-            - Filtered number of hashtags per Tiktok video to investigate relationship between hashtag count and other variables: views, comments, likes and shares
-            - Performed hashtag analysis using Word2Vec to calculate cosine similarity scores and deduce correlation with average performance scores of each hashtag
+            - Gathered and cleaned a dataset of salary information from multiple sources, ensuring data quality by handling missing values, outliers, and normalizing categorical data.
+            - Created and selected relevant features, including technical skills, job titles, years of experience, and geographic location to improve prediction accuracy.
+            - Built predictive models using various machine learning algorithms, including Linear Regression, Decision Trees, and Random Forest. Evaluated model performance using metrics like RMSE, MAE, and R² scores to ensure accuracy
+
+             Python, Pandas, NumPy, Scikit-learn, Matplotlib, streamlit, Jupyter Notebook.
+
+            -Outcome: Achieved a prediction accuracy of 85%, with the model successfully providing salary estimates based on a developer's background and market trends.
             """)
             # st.write("[Github Repo](https://github.com/harrychangjr/sales-prediction)")
-            mention(label="Streamlit App", icon="streamlit", url="https://huggingface.co/spaces/harrychangjr/tiktok_analytics",)
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/tiktok-analytics",)
+            mention(label="Streamlit App", icon="streamlit", url="https://salary-prediction-khfbsdsbitz8qvrb2kftvq.streamlit.app/",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/salary-prediction",)
         with image_column:
             st.image(images_projects[13])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Creating Sales Volume Prediction Model with Regression Methods")
-            st.write("*Self-initiated project based on e-commerce case study*")
+            st.subheader("Amazon Echo Review Sentiment Analysis")
+            st.write("*The Amazon Echo Review Sentiment Analysis project aims to analyze customer reviews to determine their sentiment (positive, negative, or neutral). By utilizing natural language processing (NLP) techniques and machine learning models, this project helps identify customer opinions, enhancing user experience and aiding in product improvement strategies.*")
             st.markdown("""
-            - Conducted exploratory data analysis (EDA) to identify relationships between variables using correlation heatmaps and histograms
-            - Trained and compared multiple regression, random forest and XGBoost to build optimal model for sales volume prediction
-            - Performed randomized search with cross-validation to increase performance of random forest regressor and reduce MSE
+            -  Implemented machine learning algorithms (e.g., Naive Bayes, Random Forest) and Natural Language Processing (NLP) techniques to classify reviews as positive, negative, or neutral.
+            - Assessed model performance using metrics like accuracy, precision, recall, and F1-score, ensuring reliable sentiment classification.
+            - Created visual representations of the analysis results using libraries such as Matplotlib and Seaborn to present insights clearly and effectively.
+            - Generated detailed reports summarizing findings and actionable insights, assisting stakeholders in understanding customer sentiments towards Amazon Echo products.
+
+            - Python, Pandas, NLTK, Scikit-learn, Matplotlib, Seaborn
+
+
             """)
             # st.write("[Github Repo](https://github.com/harrychangjr/sales-prediction)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/sales-prediction",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/sentiment_analysis",)
+            mention(label="Streamlit App", icon="streamlit", url="https://sentimentanalysis-8nm7cxks2ppkjcapp2emzpq.streamlit.app/",)
         with image_column:
-            st.image(images_projects[0])
+            st.image(images_projects[12])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Optimising Article Quality with ChatGPT and NLP")
-            st.write("*Self-initiated project using past articles written for module SP1541: Exploring Science Communication in Popular Science in Academic Year 2020/21 Semester 1*")
+            st.subheader("Gold Price Prediction")
+            st.write("*Gold Price Prediction using Machine Learning*")
             st.markdown("""
-            - Preliminary analysis - comparing word counts, readability scores and sentiment (compound) scores of all 6 article variants using NLTK and Textstat
-            - Generated word clouds to highlight frequently used words in each article variant
-            - Identified top 10 most commonly used words between variants of the same article to assess suitability of ChatGPT in enhancing article quality
+            - Developed a predictive model to forecast gold prices utilizing machine learning algorithms, analyzing historical data and market trends.
+            - Collected and preprocessed data from multiple sources, ensuring accuracy and relevance for modeling.
+            - Employed various algorithms, including linear regression, decision trees, and neural networks, to evaluate their performance in predicting gold price fluctuations.
+            - Implemented feature engineering techniques to enhance model accuracy and reliability.
+            - Evaluated model performance using metrics such as RMSE and R-squared, optimizing for the best predictive outcomes.
+            - Visualized results through informative charts and graphs, enabling stakeholders to comprehend trends and insights effectively.
             """)
             #st.write("[Github Repo](https://github.com/harrychangjr/sp1541-nlp)")
-            mention(label="Streamlit App", icon="streamlit", url="https://sp1541-nlp.streamlit.app",)
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/sp1541-nlp",)
+            mention(label="Streamlit App", icon="streamlit", url="https://goldpricepredictions-99ykhqejr5srm4kejknv7i.streamlit.app/",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/gold_price_predictions",)
         with image_column:
-            st.image(images_projects[1])
+            st.image(images_projects[7])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Statistical Learning: Analysis on Video Game Sales")
-            st.write("*Completed project within 48 hours for module ST4248: Statistical Learning II in Academic Year 2022/23 Semester 2*")
+            st.subheader("Loan Approval Prediction Project")
+            st.write("*Developed a machine learning model to predict loan approval status based on various applicant features. The project involved data preprocessing, exploratory data analysis, and model training using algorithms such as logistic regression and decision trees. Key tasks included:*")
             #st.write("Methods performed on [Kaggle dataset](https://www.kaggle.com/rush4ratio/video-game-sales-with-ratings):")
             st.markdown("""
-            - Utilised multiple regression to investigate impact of publishers on global sales by regression coefficient, including performing one-hot encoding on 'Publisher' categorical variable
-            - Compared performances of multiple linear regression, random forest and XGBoost to predict global sales using critic scores and user scores from Metacritic
-            - Trained linear mixed-effects model to investigate impact of publishers, platform and genres in global sales
+            -  Analyzed applicant data, including demographics, income, credit history, and loan characteristics, to identify patterns and insights.
+            -  Created and selected relevant features to enhance model accuracy.
+            - Implemented and tested various algorithms to determine the most effective model for predicting loan approval
+            - Designed a user-friendly Streamlit application to input applicant data and display predictions.
+            - Achieved a prediction accuracy of [insert accuracy percentage] and provided actionable insights for improving the loan approval process.
             """)
             #st.write("[Github Repo](https://github.com/harrychangjr/st4248-termpaper) | [Term Paper](https://github.com/harrychangjr/st4248-termpaper/blob/main/ST4248%20Term%20Paper%20(A0201825N)%20v5.pdf)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/st4248-termpaper",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/Loan_predictions",)
+            mention(label="Streamlit App", icon="streamlit", url="https://loanpredictions-am89dzggkybvrrin4cvq8r.streamlit.app/",)
         with image_column:
-            st.image(images_projects[2])
+            st.image(images_projects[10])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
