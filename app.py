@@ -567,7 +567,7 @@ elif choose == "Projects":
         text_column, image_column = st.columns((3,1))
         with text_column:
             st.subheader("")
-            st.write("*Project for US-based stealth startup, Bitmetrix.ai*")
+            st.write("*Car Price Prediction*")
             st.markdown("""
             - Utilised snscrape to scrape tweets from top blockchain websites such as CoinGecko and CoinMarketCap
             - Built webscraper using BeautifulSoup4 to scrape content from fintech news websites such as https://blockchain.news
