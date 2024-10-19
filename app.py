@@ -119,7 +119,7 @@ img_hedgedrip = Image.open("images/hedgedrip.jpg")
 # Assets for projects
 image_names_projects = ["ayu","bhavya","car", "dc", 
                          "diabetes", "eashwar", "gireesh", "gold", 
-                         "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student"
+                         "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student","heart"
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for Certificate of training
@@ -685,7 +685,7 @@ elif choose == "Projects":
             #st.write("[Github Repo](https://github.com/harrychangjr/biopics) | [RPubs](https://rpubs.com/harrychangjr/biopics)")
             mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/Heart_Attack_Analysis_Prediction",)
         with image_column:
-            st.image(images_projects[4])
+            st.image(images_projects[16])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
