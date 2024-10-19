@@ -656,29 +656,34 @@ elif choose == "Projects":
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Statistical Learning: Nourish Your Body with Data")
-            st.write("*Completed group project for module ST4248: Statistical Learning II in Academic Year 2022/23 Semester 2*")
+            st.subheader("Diabetes Prediction")
+            st.write("*Developed a web application for predicting diabetes using machine learning algorithms and Streamlit. The application allows users to input relevant health parameters and receive predictions based on trained models:*")
             st.markdown("""
-            - Adapted [previous project](https://drive.google.com/file/d/10ZOdQ8Q7UnevXxODAQs1YOstNSsiKh7G/view?usp=sharing) from DSA3101: Data Science in Practice, with the usage of statistical learning methods instead
-            - Performed random forest classification and clustering methods to identify different consumer segments of grocery shoppers in supermarkets
-            - Built recommendation system using matrix factorisation to recommend healthier food alternatives for grocery shoppers from different backgrounds
+            - Technologies Used : Python, Streamlit, scikit-learn, pandas, NumPy, Matplotlib
+            - User-friendly interface for data input and output visualization.
+            - Utilized machine learning models for accurate diabetes prediction.
+            - Implemented data preprocessing techniques for model training. 
+            - Visualized predictions and model performance metrics using charts and graphs.
+            - Successfully demonstrated the potential of machine learning in healthcare applications, facilitating early diagnosis and preventive measures.
             """)
             #st.write("[Final Report](https://drive.google.com/file/d/1YuYxSTuDstSvyUa-bn782sLE5kCfbyH8/view?usp=sharing) | [Pitch Deck](https://www.canva.com/design/DAFeSnJeqgM/uXpz0kw8e7If4T1PG2tpaQ/view?utm_content=DAFeSnJeqgM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) | [Product Demo](https://www.youtube.com/watch?v=XMlt-kfdC7g)")
-            mention(label="Final Report", icon="📄", url="https://drive.google.com/file/d/1YuYxSTuDstSvyUa-bn782sLE5kCfbyH8/view?usp=sharing",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/diabetics_predictions",)
+            mention(label="Streamlit App", icon="streamlit", url="https://diabeticspredictions-iqzv6arqxsxcvrckrdjuwm.streamlit.app/",)
         with image_column:
-            st.image(images_projects[3])
+            st.image(images_projects[4])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Data Science Project on Biopics Dataset from Kaggle")
-            st.write("*Self-initiated project using various machine learning methods on [biopics dataset](https://www.kaggle.com/datasets/fivethirtyeight/fivethirtyeight-biopics-dataset)*")
+            st.subheader("Heart Attack Predictions Project")
+            st.write("*Developed a machine learning model to predict the likelihood of heart attacks based on various health parameters, aiming to assist healthcare professionals in early diagnosis and preventive care.*")
             st.markdown("""
-            - Ran regression models to predict box office revenue (linear regression, random forest, support vector machines)
-            - Used k-means clustering with principal components analysis to identify similar types of movies
-            - Built content-based recommendation system using cosine similarity to recommend similar movies based on input title
+            - Utilized Python and relevant libraries (e.g., scikit-learn, pandas, NumPy) for data preprocessing, feature selection, and model training.
+            - Employed various classification algorithms (e.g., logistic regression, decision trees, random forests) to determine the best predictive model.
+            - Conducted hyperparameter tuning and cross-validation to optimize model performance.
+            - Outcome: Achieved a high accuracy rate in predictions, enabling better risk assessment for heart attack patients. The model can be integrated into healthcare systems for real-time predictions, enhancing decision-making in patient care.
             """)
             #st.write("[Github Repo](https://github.com/harrychangjr/biopics) | [RPubs](https://rpubs.com/harrychangjr/biopics)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/biopics",)
+            mention(label="Github Repo", icon="github", url="https://github.com/Madhan0102/Heart_Attack_Analysis_Prediction",)
         with image_column:
             st.image(images_projects[4])
     with st.container():
