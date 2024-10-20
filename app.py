@@ -988,7 +988,7 @@ elif choose == "Certificate":
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
             st.subheader("NUS Students' Sports Club")
-            st.write("*February to aug 2022*")
+            st.write("*February to August 2022*")
             st.markdown("""
             Publicity Executive, NUS Inter-Faculty Games
 
