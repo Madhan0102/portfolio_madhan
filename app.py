@@ -122,10 +122,10 @@ image_names_projects = ["ayu","bhavya","car", "dc",
                          "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student","heart","opencart","presta","mage"
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
-# Assets for Certificate of training
-image_names_vol = ["machine","panads",  
-                         "datascience","NUMPY","PHP","fullstack", 
-                         "JAVA","calibre infotech","team ads"]
+# Assets for volunteering
+image_names_vol = ["sdslogo", "sportslogo", "gdsclogo", "csclogo", 
+                         "nussulogo", "sklogo", "simlogo", "tpjclogo", 
+                         "sjilogo", "nuspc", "hcs", "fintech"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
 # Assets for blog
 img_qb = Image.open("images/qb.jpg")
@@ -919,71 +919,64 @@ elif choose == "Competitions":
             st.write("2D pixel art created using Pillow (PIL) Library in Python")
             #st.write("[Github Repo](https://github.com/harrychangjr/runes)")
             mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/runes",)
-elif choose == "Certificate":
-    st.header("Certificate")
+elif choose == "Volunteering":
+    st.header("Volunteering")
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("Stepwise Construction of a Machine Learning Models")
-            st.write("*October 13th, 2024*")
+            st.subheader("NUS Fintech Society")
+            st.write("*August 2023 to April 2024*")
             st.markdown("""
-            - Gained proficiency in building and training machine learning models using Python and TensorFlow
-            - successfully implemented a classification model with 92% accuracy on the MNIST dataset.
-            - Mention the issuing organization: "NoviTech R&D Private Limited".
-            - Understanding machine learning concepts                    
+            Design Manager (UI/UX Design Lead)
 
+
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[11])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("NUS Human Capital Society")
+            st.write("*July 2023 to April 2024*")
+            st.markdown("""
+            Research & Strategy Executive
+
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[10])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("NUS Product Club")
+            st.write("*April 2023 to April 2024*")
+            st.markdown("""
+            Co-founder & President
+
+            - Designed recruitment posters, club logo and [information deck](https://bit.ly/nuspc-infodeck) using Canva and Figma to increase brand awareness of new club, increasing social media outreach to over 1,000 followers across LinkedIn, Telegram and Instagram within 2 months since club formation
+            - Onboarded Staff Advisor and Product Managers from various industries to organise club events, including fireside chats and curriculum workshops that would better educate students on product management
+            - Currently designing curriculum for future Product Analytics Workshop, covering essential topics including product metrics, A/B testing, predictive analytics and cohort analysis
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[9])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("NUS Statistics and Data Science Society")
+            st.write("*May 2021 to November 2022*")
+            st.markdown("""
+            - President (2022) - Increased recruitment of student club by 50% while overseeing execution of career-related events and technical workshops organised by 56 members
+            - Marketing Director (2021-22) - Led 10 students to secure over $19,000 worth of sponsorships for 850 participants in annual Data Analytics Competition and increase society's merchandise sales revenue by over 50% compared to previous year
             """)
         with mid:
             st.empty()
         with image_column:
             st.image(images_vol[0])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Python Pandas Basics Course")
-            st.write("*July 2024 to October 20, 2024*")
-            st.markdown("""
-            I have completed the 'Pandas Basic Course' from Simplilearn during the period of July 2024 to October 20, 2024.
-            It highlights his initiative and commitment to career advancement   
-            The Python Pandas Basics Course covers the fundamental concepts and applications of the Pandas library, a powerful data manipulation tool in Python.                 
-                        
-
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[1])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Artificial Intelligence & Data Science")
-            st.write("*September 23rd to September 25th, 2024*")
-            st.markdown("""
-            
-            "Successfully completed a 3-Day Intensive Workshop in Artificial Intelligence & Data Science, conducted by NoviTech R&D Private Limited from September 23rd to September 25th, 2024."
-
-            - "Acquired knowledge in key Artificial Intelligence and Data Science techniques, including data preprocessing, machine learning algorithms, and practical applications using tools like Python, TensorFlow, and scikit-learn during a 3-Day Intensive Workshop conducted by NoviTech R&D Private Limited."
-            
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[2])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Introduction to NumPy")
-            st.write("*July 2024 to October 14, 2024*")
-            st.markdown("""
-            - Completed a comprehensive course on NumPy, focusing on array manipulation, mathematical operations, and data analysis techniques using Python.
-            - Data Analysis: Leveraging NumPy for efficient data analysis and manipulation.
-            - Understanding how NumPy improves performance for numerical computations compared to traditional Python lists.
-            - Basic linear algebra operations, including dot products and matrix multiplication.           
-            """)                        
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[3])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -998,7 +991,7 @@ elif choose == "Certificate":
         with mid:
             st.empty()
         with image_column:
-            st.image(images_vol[4])
+            st.image(images_vol[1])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -1013,7 +1006,7 @@ elif choose == "Certificate":
         with mid:
             st.empty()
         with image_column:
-            st.image(images_vol[5])
+            st.image(images_vol[2])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -1028,7 +1021,7 @@ elif choose == "Certificate":
         with mid:
             st.empty()
         with image_column:
-            st.image(images_vol[6])
+            st.image(images_vol[3])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -1043,7 +1036,7 @@ elif choose == "Certificate":
         with mid:
             st.empty()
         with image_column:
-            st.image(images_vol[7])
+            st.image(images_vol[4])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -1058,9 +1051,52 @@ elif choose == "Certificate":
         with mid:
             st.empty()
         with image_column:
+            st.image(images_vol[5])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("Singapore Institiute of Management - University of London")
+            st.write("*November 2017*")
+            st.markdown("""
+            Fundraising Volunteer, SIM-UOL Transformers
+
+            - Collected unwanted items from residents in heartland areas
+            - Successfully raised $8000 from sale of items to refurbish the homes of the less fortunate
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[6])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("Tampines Junior College")
+            st.write("*March 2015 to January 2016 - Seasonal*")
+            st.markdown("""
+            Values in Action (VIA) Projects
+
+            - Climb for A Cause - Organised and participated in games and activities with members of Singapore Disability Sports Council
+            - Project Ohana - Collaborated with Kwong Wai Shiu Hospital to engage patients in handicraft and games
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[7])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("Saint Joseph's Institution")
+            st.write("*June 2012 to June 2013 - Seasonal*")
+            st.markdown("""
+            Values in Action (VIA) Projects
+
+            - Josephian International Experience Programme - Conducted English lessons at orphanage in Siem Reap, Cambodia
+            - SJIJ Primary 4 Chinese Language Camp - Acted as group facilitator to orientate primary four students in Chinese lessons
+            """)
+        with mid:
+            st.empty()
+        with image_column:
             st.image(images_vol[8])
-    
-        
 elif choose == "Blog":
     st.header("Blog")
     selected_options = ["Overview", "Article & Essay List",
