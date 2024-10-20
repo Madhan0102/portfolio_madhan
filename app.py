@@ -689,58 +689,66 @@ elif choose == "Projects":
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Optimisation for Large-Scale Data-Driven Inference: Anime Recommendation System")
-            st.write("*Completed assignment for module DSA4212: Optimisation for Large-Scale Data-Driven Inference in Academic Year 2022/23 Semester 2*")
+            st.subheader("DC Law Firms Project")
+            st.write("*Developed and maintained a comprehensive legal services website for DC Law Firms, aimed at providing a user-friendly platform to showcase various legal services, case studies, and expertise in multiple practice areas. The project involved creating a dynamic and responsive website that facilitated seamless client interaction, appointment bookings, and legal consultations.*")
             st.markdown("""
-            - Built recommendation system using various non-factor models, including content-based collaborative filtering and clustering
-            - Utilised matrix factorisation (single value decomposition) to optimise performance of recommendation system with lower test MSE
-            - Provided optional recommendations to further optimise performance e.g scraping additional data, using deep learning methods
+            - Designed and implemented the front-end interface using HTML, CSS, JavaScript, ensuring an intuitive and visually appealing user experience.
+            -Integrated contact forms and appointment scheduling systems, automating client queries and consultation requests
+            - Applied SEO techniques to improve the site’s visibility on search engines and attract potential clients.
+            - Collaborated closely with the legal team to ensure content accuracy and compliance with legal standards.
+            - Front-end: HTML, CSS, JavaScript
+            - Back-end: PHP, MySQL
+            - Tools: Adobe Photoshop, WordPress (if applicable)
+            -SEO: Google Analytics, Keyword Optimization
+
             """)
-            #st.write("[Github Repo](https://github.com/harrychangjr/dsa4212) | [Report](https://github.com/harrychangjr/dsa4212/blob/main/DSA4212%20Assignment%202%20Group%2039%20Report.pdf)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/dsa4212",)
+        mention(label="Final Report", icon="📄", url="https://www.dclawfirms.in/",)
         with image_column:
-            st.image(images_projects[5])
+            st.image(images_projects[3])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Optimisation for Large-Scale Data-Driven Inference: Word Embedding")
-            st.write("*Completed assigmment for module DSA4212: Optimisation for Large-Scale Data-Driven Inference in Academic Year 2022/23 Semester 2*")
+            st.subheader("Gireesh Heat Exchangers Project")
+            st.write("*WordPress Developer & SEO Specialist – Gireesh Heat Exchangers Project*")
             st.markdown("""
-            - Trained Word2Vec model on 20 Newsgroups dataset from scikit-learn package in Python, which provides a number of similar words based on input word
-            - Evaluated usefulness of model by applying model to text classification (46% accuracy) and sentiment analysis (86.4% accuracy)
+            - Designed and developed a dynamic website for the "Gireesh Heat Exchangers" project using WordPress, ensuring a responsive and user-friendly interface.
+            - Customized themes and integrated plugins to enhance the functionality of the website, aligning with the specific needs of the heat exchanger industry.
+            - Focused on SEO optimization to improve the website's visibility on search engines, conducting keyword research, optimizing content, and implementing on-page SEO strategies
+            - Utilized SEO tools to monitor performance, ensuring the website ranks for relevant industry keywords and drives organic traffic
+            - Tools: Adobe Photoshop, WordPress (if applicable)
+            - SEO: Google Analytics, Keyword Optimization
             """)
-            #st.write("[Github Code](https://github.com/harrychangjr/dsa4212/blob/main/DSA4212%20Assignment%203%20Group%2039.ipynb) | [Report](https://github.com/harrychangjr/dsa4212/blob/main/DSA4212%20Assignment%203%20Group%2039%20Report.pdf)")
-            mention(label="Github Code", icon="github", url="https://github.com/harrychangjr/dsa4212/blob/main/DSA4212%20Assignment%203%20Group%2039.ipynb",)
+        mention(label="Final Report", icon="📄", url="https://www.gireeshheatexchangers.com/",)
         with image_column:
             st.image(images_projects[6])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Data-Driven Marketing: Exploration of cellphone billing and subscriber data")
-            st.write("*Self-initiated project based on past assignment from module BT4211: Data-Driven Marketing*")
+            st.subheader("BT Institute Private Limited")
+            st.write("*ERP admin panel to maintain student details*")
             st.markdown("""
-            - Performed preliminary churn analysis, customer segmentation and descriptive analysis to understand more about dataset
-            - Trained logit and probit models, as well as providing model estimations for duration models
-            - Utilised random forest classifier to predict customer churn
+            - Validating files uploading and clean the user inputs from forms before storing it into database to prevent sql injection
+            - Delivered responsive, mobile-friendly web applications to ensure accessibility on multiple devices.
+            - Front-end: HTML, CSS, JavaScript
+            - Back-end: PHP, MySQL
             """)
-            #st.write("[Github Repo](https://github.com/harrychangjr/cellphone-billing) | [RPubs](https://rpubs.com/harrychangjr/cellphone)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/cellphone-billing",)
+        mention(label="Final Report", icon="📄", url="https://www.ibtindia.com/",)
         with image_column:
-            st.image(images_projects[7])
+            st.image(images_projects[8])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Data Visualization: Analysis on Spotify Dataset from [tidytuesday](https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-01-21)")
-            st.write("*Completed group project for module DSA2101: Essential Data Analytics Tools: Data Visualization in Academic Year 2021/22 Semester 2*")
+            st.subheader("PV Engineers & Developers project")
+            st.write("*For the PV Engineers & Developers project, as an SEO Developer, you optimized their website for search engines by conducting keyword research, improving on-page SEO elements like meta tags, titles, and descriptions, and enhancing site performance*")
             st.markdown("""
-            - Investigated variables that differentiates songs of different genres, which could be useful in designing recommendation systems
-            - Explored how do the four seasons affect number of songs produced in each period
-            - Visualizations used: ridgeline faceted density plot, boxplot, line chart, faceted donut chart
+            - SEO Developer 
+            - Conducted keyword research, implemented on-page and off-page SEO strategies.
+            - Analyzed website performance using SEO tools like Google Analytics and Search Console.
+            - Collaborated with the content and development teams to ensure SEO best practices across web platforms
             """)
-            #st.write("[Github Code](https://github.com/harrychangjr/dsa2101/blob/main/DSA2101_Group%20B.Rmd) | [RPubs](https://rpubs.com/harrychangjr/dsa2101-groupb)")
-            mention(label="Github Code", icon="github", url="https://github.com/harrychangjr/dsa2101/blob/main/DSA2101_Group%20B.Rmd",)
+        mention(label="Final Report", icon="📄", url="https://www.pvengineersdevelopers.in/",)
         with image_column:
-            st.image(images_projects[8])
+            st.image(images_projects[11])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
