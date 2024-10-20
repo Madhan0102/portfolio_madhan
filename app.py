@@ -90,12 +90,12 @@ img_utown = Image.open("images/about.jpg")
 img_lh = Image.open("images/20230720_121643.jpg")
 img_ifg = Image.open("images/ifg.jpg")
 #Assets for competitions
-img_lit = Image.open("images/legalease.jpg")
-img_lifehack2 = Image.open("images/lifehack2.jpg")
-img_lifehack = Image.open("images/lifehack.jpg")
-img_he4d = Image.open("images/he4d.jpg")
-img_ecc = Image.open("images/ecc.jpg")
-img_shopee = Image.open("images/shopee.png")
+img_lite = Image.open("images/a.jpg")
+img_lifehack2 = Image.open("images/c.jpg")
+img_lifehack = Image.open("images/d.jpg")
+img_he4d = Image.open("images/e.jpg")
+img_ecc = Image.open("images/k.jpg")
+img_shopee = Image.open("images/m.jpg")
 img_sbcc = Image.open("images/sbcc.png")
 img_runes = Image.open("images/runes.png")
 # Assets for education
@@ -845,7 +845,7 @@ elif choose == "Competitions":
     with st.container():
         image_column, text_column = st.columns((1,3))
         with image_column:
-            st.image(img_lit)
+            st.image(img_lite)
             #st.empty()
         with text_column:
             st.subheader("[SMU-LIT Hackathon 2023](https://www.smulit.org/hackathon-2023/) - Hosted by [SMU Legal-in-Tech Club](https://smulit.org)")
@@ -858,11 +858,10 @@ elif choose == "Competitions":
             st.image(img_lifehack2)
             #st.empty()
         with text_column:
-            st.subheader("[NUS LifeHack 2023](https://lifehack-website.web.app//) - Hosted by [NUS Students' Computing Club](https://nuscomputing.com/)")
-            st.write("Awarded Top 15 Finalist out of 141 team submissions")
+            st.subheader("One Day Workshop on .Net Framework")
+            st.write(" certificate is for Prof/Dr/Mr/Ms N. MADHAN KUMAR, ITI MCA, of KARPAGAM COLLEGE OF ENGINEERING, COIMBATORE. It certifies their participation in a One Day Workshop on .Net Framework held on 14th March 2015. The workshop was organized by the Department of Master of Computer Applications")
             st.write("Built  and integrated PassionPassport with ChatGPT - a Streamlit-based web application that recommends travel locations based on one’s hobbies.")
-            #st.write("[Devpost](https://devpost.com/software/quest-busters) | [Github Repo](https://github.com/yuechen2001/LifeHack2022) | [Pitch Deck](https://www.canva.com/design/DAFGF_nbyZ8/noJnq3IGDdX6nvu7M_2pXQ/view?utm_content=DAFGF_nbyZ8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) | [Demo Video](https://www.youtube.com/watch?v=su3_Y3yzeh8)")
-            mention(label="Github Repo", icon="github", url="https://github.com/BrendanCheong/lifehack-2023",)
+            
     with st.container():
         image_column, text_column = st.columns((1,3))
         with image_column:
