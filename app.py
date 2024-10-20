@@ -123,10 +123,11 @@ image_names_projects = ["ayu","bhavya","car", "dc",
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for Certificate of training
-image_names_vol = ["machine", "panads",  
-                         "datascience", "NUMPY", "PHP", "fullstack", 
-                         "JAVA", "calibre infotech", "team ads"]
+image_names_vol = ["machine","panads",  
+                         "datascience","NUMPY","PHP","fullstack", 
+                         "JAVA","calibre infotech","team ads"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
+
 # Assets for blog
 img_qb = Image.open("images/qb.jpg")
 img_mayans = Image.open("images/mayans.jpg")
