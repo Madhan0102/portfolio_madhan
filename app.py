@@ -119,7 +119,7 @@ img_hedgedrip = Image.open("images/hedgedrip.jpg")
 # Assets for projects
 image_names_projects = ["ayu","bhavya","car", "dc", 
                          "diabetes", "eashwar", "gireesh", "gold", 
-                         "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student","heart"
+                         "ibt","map","loan", "pv", "sentiment", "sofware", "spactrs","student","heart","opencart","presta","mage"
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for Certificate of training
@@ -752,60 +752,92 @@ elif choose == "Projects":
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Computers and the Humanities: Chloropleths using Google Sheets and Folium in Python")
-            st.write("*Completed assignment for module GET1030: Computers and the Humanities in Academic Year 2020/21 Semester 2*")
+            st.subheader("Spectra Plast Project")
+            st.write("*www.spectraplast.in focused on PHP development and SEO development*")
             st.markdown("""
-            - Visualized the total number of performances of A Doll's House by country, using a chloropleth from Google Sheets
-            - Drafted scatterplots and boxplots using seaborn to investigate relationship between number of events per country and number of years these plays have been performed
-            - Created chloropleth using Folium in Google Colab to compare total performance counts in China, categorised by province
+            - PHP Development: Designed, developed, and maintained dynamic, user-friendly website features using PHP, ensuring smooth integration with databases and delivering optimized web pages for improved user experience.
+            - SEO Optimization: Conducted comprehensive SEO audits, identifying opportunities for on-page and off-page SEO improvements. Optimized meta tags, headers, keywords, and website content to increase organic traffic and search engine rankings.
+            - Performance Optimization: Enhanced website speed and performance by optimizing code, implementing caching strategies, and conducting regular website maintenance.
+            - Collaborative Development: Worked closely with design and content teams to align the website with business goals, improving user engagement and driving conversions.
             """)
-            #st.write("[Google Sheets](https://docs.google.com/spreadsheets/d/1NBlGM7Sjcybbpl1Esa55qLRJw-Seti1LhC93EhV_68w/edit?usp=sharing) | [Google Colab](https://colab.research.google.com/drive/1RHqtb5XC7PkJDpNEb-BY3tO-8mI2j32E?usp=sharing)")
-            mention(label="Google Drive", icon="🗂️", url="https://drive.google.com/drive/folders/1Iva0oLZim6zJlAndoSzR63pUq4NCznim?usp=share_link",)
+        mention(label="Final Report", icon="📄", url="https://www.spectraplast.in/",)
         with image_column:
-            st.image(images_projects[9])
+            st.image(images_projects[14])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Computers and the Humanities: Network Analysis on Harry Potter Film Database")
-            st.write("*Completed assignment for module GET1030: Computers and the Humanities in Academic Year 2020/21 Semester 2*")
+            st.subheader("Bhavya Packers And Movers")
+            st.write("*WordPress and SEO Developer*")
             st.markdown("""
-            - Utilised custom Python file based on NetworkX and Glob to create networks using Harry Potter film database
-            - Drafted visualizations using matplotlib and seaborn to compare densities and weighted degree values of nodes from generated networks
-            - Customised network visualization using Gephi to investigate relationship between various Harry Potter film directors
+            - Developed and maintained WordPress websites, enhancing user experience and functionality.
+            - mplemented SEO strategies, improving organic search rankings and site visibility.
+            - Collaborated with cross-functional teams to optimize content and increase web traffic.
             """)
-            #st.write("[Github Code](https://github.com/harrychangjr/get1030/blob/main/A0201825N_GET1030_Tutorial_4.ipynb)")
-            mention(label="Github Code", icon="github", url="https://github.com/harrychangjr/get1030/blob/main/A0201825N_GET1030_Tutorial_4.ipynb",)
+        mention(label="Final Report", icon="📄", url="https://www.bhavyapackersandmovers.in/",)
         with image_column:
-            st.image(images_projects[10])
+            st.image(images_projects[1])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Computers and the Humanities: Text Processing and Analysis on Song Lyrics")
-            st.write("*Completed assignment for module GET1030: Computers and the Humanities in Academic Year 2020/21 Semester 2*")
+            st.subheader("A K Ayurvedic Clinic Project")
+            st.write("*Developed an SEO strategy for A K Ayurvedic Clinic, optimizing website content, enhancing local search visibility, and improving user engagement to attract more patients and increase online appointments*")
             st.markdown("""
-            - Utilised custom Python file based on NetworkX and Glob to create networks using Harry Potter film database
-            - Drafted visualizations using matplotlib and seaborn to compare proportions of nouns and verbs between different songs
-            - Analysed type/token ratios of songs from both albums to evaluate which album produced better quality songs based on words used
+            - SEO Development for A K Ayurvedic Clinic
+            - The objective of this project is to enhance the online visibility and search engine ranking of A K Ayurvedic Clinic through comprehensive SEO strategies. By optimizing the clinic’s website and online presence, we aim to attract more local customers seeking Ayurvedic treatments, thereby increasing foot traffic and appointment bookings
+            -  On-Page Optimization: Optimize website content, including meta titles, descriptions, headings, and images, to improve search engine friendliness and user experience.
             """)
-            #st.write("[Github Code](https://github.com/harrychangjr/get1030/blob/main/A0201825N%20-%20GET1030%20Tutorial%203.ipynb)")
-            mention(label="Github Code", icon="github", url="https://github.com/harrychangjr/get1030/blob/main/A0201825N%20-%20GET1030%20Tutorial%203.ipynb",)
+        mention(label="Final Report", icon="📄", url="https://www.akayurvediclinic.com/",)
         with image_column:
-            st.image(images_projects[11])
+            st.image(images_projects[0])
     with st.container():
         text_column, image_column = st.columns((3,1))
         with text_column:
-            st.subheader("Computers and the Humanities: Spotify in the Covid-19 Era")
-            st.write("*Completed group project for module GET1030: Computers and the Humanities in Academic Year 2020/21 Semester 2*")
+            st.subheader("Eshwar College of Engineering")
+            st.write("*SEO development work at Eshwar College of Engineering:*")
             st.markdown("""
-            - Compiled and scraped Spotify data from [Spotify](https://www.spotifycharts.com), [Kaggle](https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks), and [OWID](https://ourworldindata.org/coronavirus/country/singapore) to analyse top songs played in Singapore during Covid-19
-            - Drafted Tableau dashboard to showcase correlation between various features of top songs, including tempo, acousticness and popularity
-            - Embedded 30-second snippet of featured song on dashboard for increased interactiveness
+            - developed and implemented SEO strategies to enhance website visibility and traffic.
+            - Conducted keyword research, on-page optimization, and content strategy planning.
+            - Analyzed website performance using analytics tools to drive continuous improvement.
             """)
-            #st.write("[Github Code](https://github.com/harrychangjr/get1030/blob/main/A0201825N%20-%20GET1030%20Tutorial%203.ipynb)")
-            mention(label="Final Report", icon="📄", url="https://github.com/harrychangjr/get1030/blob/main/GET1030%20Final%20Project.pdf",)
+            mention(label="Final Report", icon="📄", url="https://sece.ac.in/",)
         with image_column:
-            st.image(images_projects[12])
-    
+            st.image(images_projects[5])
+
+    with st.container():
+        text_column, image_column = st.columns((3,1))
+        with text_column:
+            st.subheader("Ecommerce Modules")
+            st.write("*E-commerce Platform Development (OpenCart, PrestaShop, Magento) | Developer*")
+            st.subheader("Open Cart")
+            st.markdown("""
+            - Website Customization: Integrated and customized theme and developed extensions to add extra features to the site such as refer a friend, news ticker in header, customized cart pages and shipping functionalities.
+                                     Customize your opencart , remove checkout procedure , pricing , remove add to cart and add form for product 
+
+            - Conducted keyword research, on-page optimization, and content strategy planning.
+            - Analyzed website performance using analytics tools to drive continuous improvement.
+            """)
+            with image_column:
+               st.image(images_projects[17])
+            st.subheader("PrestaShop")
+            st.write("*Modules And Description*")
+            st.markdown("""
+            - Contact Us:  Contact us form with captcha to prevent spam and displayed those details in admin panel with edit option
+            - Chain Products:  Configure chain products and redirect through chain products in front end, once the main product is added to cart. Chain may have hidden products and customer cant able to buy or view without adding the main product in cart.
+            - Product words:   Product name customization - Character count, price for each word, disallowed characters can be configured by admin. Based on every character product price varies dynamically.
+            - Book Price   :   Dynamically calculate product price by using custom attributes such as number of pages, book cover, size, etc defined by admin
+            - Custom Category : Configure slider option for category page and option to manage category page layout design (1 product/row or 3 products/row)
+            - Customer Testimonials: Display customer testimonials at a separate page and in side bar of each page. Admin can manage (edit,delete,enable,disable) the testimonial before displayed in page.
+            """)
+            with image_column:
+               st.image(images_projects[18])
+            st.subheader("Magento")
+            st.write("*Modules And Description*")
+            st.markdown("""
+            -  Website Customization: Integrated and customized theme and developed extensions to add extra features to the site such as refer a friend, news ticker in header, customized cart pages and shipping functionalities
+            """)
+            with image_column:
+               st.image(images_projects[19])
+            
 elif choose == "Competitions":
     # Create section for Competitions
     #st.write("---")
