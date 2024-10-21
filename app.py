@@ -956,13 +956,13 @@ elif choose =="Certificate":
         with st.container():
           text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("Saint Joseph's Institution")
-            st.write("*June 2012 to June 2013 - Seasonal*")
+            st.subheader("Python Pandas Basics Course")
+            st.write("*July 2024 to October 20, 2024*")
             st.markdown("""
-            Values in Action (VIA) Projects
+            - I have completed the 'Pandas Basic Course' from Simplilearn during the period of July 2024 to October 20, 2024.
+            - It highlights his initiative and commitment to career advancement
+            - he Python Pandas Basics Course covers the fundamental concepts and applications of the Pandas library, a powerful data manipulation tool in Python.
 
-            - Josephian International Experience Programme - Conducted English lessons at orphanage in Siem Reap, Cambodia
-            - SJIJ Primary 4 Chinese Language Camp - Acted as group facilitator to orientate primary four students in Chinese lessons
             """)
         with mid:
             st.empty()
@@ -972,14 +972,14 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Product Club")
-            st.write("*April 2023 to April 2024*")
+            st.subheader("Introduction to NumPy")
+            st.write("*July 2024 to October 14, 2024*")
             st.markdown("""
-            Co-founder & President
-
-            - Designed recruitment posters, club logo and [information deck](https://bit.ly/nuspc-infodeck) using Canva and Figma to increase brand awareness of new club, increasing social media outreach to over 1,000 followers across LinkedIn, Telegram and Instagram within 2 months since club formation
-            - Onboarded Staff Advisor and Product Managers from various industries to organise club events, including fireside chats and curriculum workshops that would better educate students on product management
-            - Currently designing curriculum for future Product Analytics Workshop, covering essential topics including product metrics, A/B testing, predictive analytics and cohort analysis
+            - Completed a comprehensive course on NumPy, focusing on array manipulation, mathematical operations, and data analysis techniques using Python
+            - Data Analysis: Leveraging NumPy for efficient data analysis and manipulation.
+            - Understanding how NumPy improves performance for numerical computations compared to traditional Python lists.
+            - Basic linear algebra operations, including dot products and matrix multiplication.
+            
             """)
         with mid:
             st.empty()
