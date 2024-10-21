@@ -924,11 +924,12 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Fintech Society")
-            st.write("*August 2023 to April 2024*")
+            st.subheader("Artificial Intelligence & Data Science")
+            st.write("*September 23rd to September 25th, 2024*")
             st.markdown("""
-            Design Manager (UI/UX Design Lead)
-
+                
+               "Successfully completed a 3-Day Intensive Workshop in Artificial Intelligence & Data Science, conducted by NoviTech R&D Private Limited from September 23rd to September 25th, 2024."
+             - "Acquired knowledge in key Artificial Intelligence and Data Science techniques, including data preprocessing, machine learning algorithms, and practical applications using tools like Python, TensorFlow, and scikit-learn during a 3-Day Intensive Workshop conducted by NoviTech R&D Private Limited."
 
             """)
         with mid:
