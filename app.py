@@ -953,6 +953,22 @@ elif choose =="Certificate":
             st.empty()
         with image_column:
             st.image(images_vol[10])
+        with st.container():
+          text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("Saint Joseph's Institution")
+            st.write("*June 2012 to June 2013 - Seasonal*")
+            st.markdown("""
+            Values in Action (VIA) Projects
+
+            - Josephian International Experience Programme - Conducted English lessons at orphanage in Siem Reap, Cambodia
+            - SJIJ Primary 4 Chinese Language Camp - Acted as group facilitator to orientate primary four students in Chinese lessons
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[8])    
+
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
@@ -1012,22 +1028,7 @@ elif choose =="Certificate":
             st.empty()
         with image_column:
             st.image(images_vol[2])
-        with st.container():
-          text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Saint Joseph's Institution")
-            st.write("*June 2012 to June 2013 - Seasonal*")
-            st.markdown("""
-            Values in Action (VIA) Projects
-
-            - Josephian International Experience Programme - Conducted English lessons at orphanage in Siem Reap, Cambodia
-            - SJIJ Primary 4 Chinese Language Camp - Acted as group facilitator to orientate primary four students in Chinese lessons
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[8])    
-
+       
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
