@@ -848,10 +848,14 @@ elif choose == "Competitions":
             st.image(img_lite)
             #st.empty()
         with text_column:
-            st.subheader("[SMU-LIT Hackathon 2023](https://www.smulit.org/hackathon-2023/) - Hosted by [SMU Legal-in-Tech Club](https://smulit.org)")
-            st.write("Built LegalEase with OpenAI - a Streamlit-based web application empowering lawyers in hybrid working environments with optimal task scheduling.")
-            #st.write("[Devpost](https://devpost.com/software/quest-busters) | [Github Repo](https://github.com/yuechen2001/LifeHack2022) | [Pitch Deck](https://www.canva.com/design/DAFGF_nbyZ8/noJnq3IGDdX6nvu7M_2pXQ/view?utm_content=DAFGF_nbyZ8&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink) | [Demo Video](https://www.youtube.com/watch?v=su3_Y3yzeh8)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/legalease",)
+            st.subheader("Rural Sports Competition (Pongal)")
+            st.write("Participant in the Cricket Match")
+            st.markdown("""
+                    - Secured [First/Second/Third] Place
+                    - Issued by the Tamil Nadu Government
+
+            
+            """)
     with st.container():
         image_column, text_column = st.columns((1,3))
         with image_column:
@@ -900,25 +904,7 @@ elif choose == "Competitions":
             st.write("Redesigned user interface of Shopee mobile app using Figma to reduce clutter and increase user utilization of in-app rewards")
             #st.write("[Figma Prototype](https://www.figma.com/proto/3UXT29N1RgVGDUlSBeWcPN/UI-Prototype-1?node-id=18-3&viewport=-675%2C231%2C0.32458001375198364&scaling=scale-down) | [Pitch Deck](https://drive.google.com/file/d/12qnveB-SMjG_gF_gwNj3Nr-JsKeyKd6g/view)")
             mention(label="Figma", icon="📱", url="https://www.figma.com/proto/3UXT29N1RgVGDUlSBeWcPN/UI-Prototype-1?node-id=18-3&viewport=-675%2C231%2C0.32458001375198364&scaling=scale-down",)
-    with st.container():
-        image_column, text_column = st.columns((1,3))
-        with image_column:
-            st.image(img_sbcc)
-        with text_column:
-            st.subheader("Singapore Business Case Competition 2020 - Hosted by [NTU Business Solutions Club](https://clubs.ntu.edu.sg/businesssolutions/)")
-            st.write("Proposed solutions to help increase competitiveness of BreadTalk after performing market research and analysis on the F&B industry")
-            #st.write("[Pitch Deck](https://drive.google.com/file/d/1kLgbBVuth4KvfhjaK00n30xlr4bmn-iM/view)")
-            mention(label="Pitch Deck", icon="🪧", url="https://drive.google.com/file/d/1kLgbBVuth4KvfhjaK00n30xlr4bmn-iM/view",)
-    with st.container():
-        image_column, text_column = st.columns((1,3))
-        with image_column:
-            st.image(img_runes)
-        with text_column:
-            st.subheader("Contest 2.2 Beautiful Runes - CS1010S Programming Methodology")
-            st.write("Awarded 1st Place for 2D Runes category out of over 600 students enrolled in the module for Academic Year 2020/21 Semester 1")
-            st.write("2D pixel art created using Pillow (PIL) Library in Python")
-            #st.write("[Github Repo](https://github.com/harrychangjr/runes)")
-            mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/runes",)
+    
 elif choose =="Certificate":
     st.header("Certificate")
     with st.container():
