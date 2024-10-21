@@ -1011,21 +1011,6 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Students' Union")
-            st.write("*January to March 2021*")
-            st.markdown("""
-            Public Relations Executive, Open Day Student Village
-
-            - Liaised with participating student residences and clubs to increase awareness of event to prospective students
-            - Enforced rules and regulations imposed by school administrative staff to ensure smooth execution of event
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[4])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
             st.subheader("Saturday Kids")
             st.write("*October 2020 to December 2021 - Seasonal*")
             st.markdown("""
