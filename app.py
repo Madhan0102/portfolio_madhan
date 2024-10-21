@@ -1007,21 +1007,7 @@ elif choose =="Certificate":
             st.empty()
         with image_column:
             st.image(images_vol[2])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("NUS Students' Community Service Club")
-            st.write("*March to July 2021*")
-            st.markdown("""
-            Organising Committee, Project Safe Space
-
-            - Organised weekly sessions to empower individuals from Anglican Care Centre (Yishun) with important life skills (e.g Zumba, cooking)
-            - Drafted write-ups on psychiatric conditions to raise awareness on debunked mental health myths and promote mental welness
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[3])
+    
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
