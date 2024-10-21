@@ -1007,22 +1007,7 @@ elif choose =="Certificate":
             st.empty()
         with image_column:
             st.image(images_vol[2])
-    
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Saturday Kids")
-            st.write("*October 2020 to December 2021 - Seasonal*")
-            st.markdown("""
-            Python Instructor, Code in the Community
 
-            - Conducted weekly lessons for classes of 3-4 secondary school students on Python programming 
-            - Customised curriculum structure to suit the learning needs of students
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[5])
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
