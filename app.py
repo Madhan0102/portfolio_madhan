@@ -125,7 +125,7 @@ images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gep
 # Assets for volunteering
 image_names_vol = ["sdslogo", "sportslogo", "gdsclogo", "csclogo", 
                          "nussulogo", "sklogo", "simlogo", "tpjclogo", 
-                         "sjilogo", "nuspc", "hcs", "fintech"]
+                         "sjilogo", "nuspc", "machine", "fintech"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
 # Assets for blog
 img_qb = Image.open("images/qb.jpg")
@@ -919,8 +919,8 @@ elif choose == "Competitions":
             st.write("2D pixel art created using Pillow (PIL) Library in Python")
             #st.write("[Github Repo](https://github.com/harrychangjr/runes)")
             mention(label="Github Repo", icon="github", url="https://github.com/harrychangjr/runes",)
-elif choose == "Volunteering":
-    st.header("Volunteering")
+elif choose =="Certificate":
+    st.header("Certificate")
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
