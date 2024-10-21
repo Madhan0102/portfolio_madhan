@@ -988,11 +988,14 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Statistics and Data Science Society")
-            st.write("*May 2021 to November 2022*")
+            st.subheader(" Full-Stack Development")
+            st.write("*NoviTech R&D Pvt. Ltd. – June 2024 to July 2024*")
             st.markdown("""
-            - President (2022) - Increased recruitment of student club by 50% while overseeing execution of career-related events and technical workshops organised by 56 members
-            - Marketing Director (2021-22) - Led 10 students to secure over $19,000 worth of sponsorships for 850 participants in annual Data Analytics Competition and increase society's merchandise sales revenue by over 50% compared to previous year
+            - Successfully completed a one-month internship focused on full-stack development, building scalable web applications using Django and Flask.
+            - Developed and maintained databases, ensuring smooth integration between front-end and back-end functionalities.
+            - Collaborated with cross-functional teams to implement user-centric features.
+            - Building fully functional web applications like e-commerce websites, blogs, social media platforms, or portfolio sites.
+            - Implementing user registration, authentication, and CRUD (Create, Read, Update, Delete) functionality.
             """)
         with mid:
             st.empty()
