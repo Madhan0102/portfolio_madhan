@@ -927,8 +927,7 @@ elif choose =="Certificate":
             st.subheader("Artificial Intelligence & Data Science")
             st.write("*September 23rd to September 25th, 2024*")
             st.markdown("""
-                
-               "Successfully completed a 3-Day Intensive Workshop in Artificial Intelligence & Data Science, conducted by NoviTech R&D Private Limited from September 23rd to September 25th, 2024."
+               Successfully completed a 3-Day Intensive Workshop in Artificial Intelligence & Data Science, conducted by NoviTech R&D Private Limited from September 23rd to September 25th, 2024.
              - "Acquired knowledge in key Artificial Intelligence and Data Science techniques, including data preprocessing, machine learning algorithms, and practical applications using tools like Python, TensorFlow, and scikit-learn during a 3-Day Intensive Workshop conducted by NoviTech R&D Private Limited."
 
             """)
@@ -939,10 +938,15 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Human Capital Society")
-            st.write("*July 2023 to April 2024*")
+            st.subheader("Stepwise Construction of a Machine Learning Models")
+            st.write("*October 13th, 2024*")
             st.markdown("""
-            Research & Strategy Executive
+              
+              - Gained proficiency in building and training machine learning models using Python and TensorFlow
+              - successfully implemented a classification model with 92% accuracy on the MNIST dataset.
+              - Mention the issuing organization: "NoviTech R&D Private Limited".
+              - Understanding machine learning concepts
+
 
             """)
         with mid:
