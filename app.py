@@ -1004,13 +1004,11 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("NUS Students' Sports Club")
-            st.write("*February to August 2022*")
+            st.subheader("PHP Programming Certificate")
+            st.write("*October 2015 to January 2016*")
             st.markdown("""
-            Publicity Executive, NUS Inter-Faculty Games
-
-            - Designed storyboard for publicity videos to hype up school-wide event
-            - Increased publicity of event through extended outreach to over 5,000 students in various Telegram groups
+            - The PHP Programming Certificate, issued by Texasas Techno Park, recognizes the successful completion of a training program from October 2015 to January 2016
+            - During this course, the user gained expertise in PHP programming, learning to develop dynamic websites, handle databases, and build server-side applications. The training covered PHP fundamentals, database integration, and web development best practices, enhancing the user's skills in creating robust, interactive web applications.
             """)
         with mid:
             st.empty()
