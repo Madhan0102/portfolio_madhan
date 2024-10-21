@@ -123,7 +123,7 @@ image_names_projects = ["ayu","bhavya","car", "dc",
                          ]
 images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_projects]
 # Assets for volunteering
-image_names_vol = ["sdslogo", "sportslogo", "gdsclogo", "csclogo", 
+image_names_vol = ["fullstack", "sportslogo", "gdsclogo", "csclogo", 
                          "nussulogo", "sklogo", "simlogo", "tpjclogo", 
                          "sjilogo", "nuspc", "machine", "fintech"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
