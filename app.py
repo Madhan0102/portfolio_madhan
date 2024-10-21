@@ -1017,13 +1017,12 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("Google Developer Student Clubs NUS")
-            st.write("*September 2021 to April 2022*")
+            st.subheader("Core Java Training Program")
+            st.write("*September 17, 2015 – October 30, 2015*")
             st.markdown("""
-            Deputy Head of Finance
+              Institution: Mazenet, Coimbatore, Tamil Nadu, India
+            - Description: Completed a training program in Core Java, focusing on fundamental concepts, object-oriented programming, and practical applications.
 
-            - Managed budget of student club alongside Core Team to ensure sufficient funds for technical workshops, hackathon and external projects
-            - Liaised with staff advisors and administrative staff to seek funding approvals and process financial claims for other student members
             """)
         with mid:
             st.empty()
@@ -1033,33 +1032,32 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
-            st.subheader("Singapore Institiute of Management - University of London")
-            st.write("*November 2017*")
+            st.subheader("PHP Developer, E-commerce Website Developer")
+            st.write("*Team Ads August 2017 - March 2018*")
             st.markdown("""
-            Fundraising Volunteer, SIM-UOL Transformers
-
-            - Collected unwanted items from residents in heartland areas
-            - Successfully raised $8000 from sale of items to refurbish the homes of the less fortunate
-            """)
-        with mid:
-            st.empty()
-        with image_column:
-            st.image(images_vol[6])
-    with st.container():
-        text_column, mid, image_column = st.columns((3,0.4,1))
-        with text_column:
-            st.subheader("Tampines Junior College")
-            st.write("*March 2015 to January 2016 - Seasonal*")
-            st.markdown("""
-            Values in Action (VIA) Projects
-
-            - Climb for A Cause - Organised and participated in games and activities with members of Singapore Disability Sports Council
-            - Project Ohana - Collaborated with Kwong Wai Shiu Hospital to engage patients in handicraft and games
+            - Responsibilities: Designing and developing e-commerce websites with PHP, focusing on user experience and functionality.
+        
             """)
         with mid:
             st.empty()
         with image_column:
             st.image(images_vol[7])
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
+            st.subheader("PHP Developer & Website Developer")
+            st.write("*Calibre Infotech February 2016 - May 2017*")
+            st.markdown("""
+            - Developed and maintained dynamic websites using PHP
+            - Collaborated with clients to gather requirements and deliver tailored web solutions.
+            - Enhanced website functionality and user experience through effective coding practices.
+            - Integrated databases to ensure smooth operation and data management on websites.
+            - Worked on optimizing website performance and implementing SEO best practices.
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[6])
     
 elif choose == "Blog":
     st.header("Blog")
