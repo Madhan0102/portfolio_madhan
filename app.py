@@ -853,8 +853,6 @@ elif choose == "Competitions":
             st.markdown("""
                     - Secured [First/Second/Third] Place
                     - Issued by the Tamil Nadu Government
-
-            
             """)
     with st.container():
         image_column, text_column = st.columns((1,3))
