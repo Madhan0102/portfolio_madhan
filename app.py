@@ -869,11 +869,10 @@ elif choose == "Competitions":
         with image_column:
             st.image(img_ecc)
         with text_column:
-            st.subheader("NUS Economics Case Competition - Hosted by [NUS Economics Society](https://www.nuseconsoc.com/)")
-            st.write("Performed financial modelling and market research to suggest methods for brick-and-mortar retailers to compete against e-commerce stores")
-            #st.write("[Report](https://drive.google.com/drive/u/4/folders/1NfsRr1P3xAkuJq3HEJ9LQU1uCo6TZIFK)")
-            mention(label="Report", icon="📄", url="https://drive.google.com/drive/u/4/folders/1NfsRr1P3xAkuJq3HEJ9LQU1uCo6TZIFK",)
-    with st.container():
+            st.subheader("Annual Sports Meet 2008-2009")
+            st.write("Government Higher Secondary School, Kinathukadavu")
+       
+            
         image_column, text_column = st.columns((1,3))
         with image_column:
             st.image(img_shopee)
