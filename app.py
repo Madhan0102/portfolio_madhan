@@ -86,7 +86,7 @@ def pdf_link(pdf_url, link_text="Click here to view PDF"):
 # Load assets
 #lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 # Assets for about me
-img_utown = Image.open("images/about.jpg")
+img_utown = Image.open("images/about1.gif")
 img_lh = Image.open("images/20230720_121643.jpg")
 img_ifg = Image.open("images/aboutme.jpg")
 #Assets for competitions
@@ -286,8 +286,13 @@ if choose == "About Me":
             st.write("💼 Ad Media (July 2019 – Present): PHP Developer, Website Developer, SEO & GMB Specialist.")
             st.write("🏋🏻 Team Ads (Aug 2017 – March 2018): PHP Developer")
             st.write("👨🏼‍💻 Calibre Infotech (Feb 2016 – May 2017): PHP Developer & Website Developer")
+            st.write("🔭 I’m currently working on AI Development and Machine Learning projects.")
+            st.write("🌱 I'm learning more about Deep Learning and Data Engineering to expand my skill set.")
+            st.write("👯 I’m open to collaborating on AI, Machine Learning, Data Science, and Full-stack development projects.")
             st.write("👨🏼‍💻 Currently, I am enhancing my skills in Data Science and Artificial Intelligence through training at QTree Technologies, preparing to leverage data-driven approaches for solving real-world problems.")
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst, Product Manager")
+            st.write("📫 How to reach me: [connectmadhan01@gmail.com]")
+            st.write("👨‍💻 All of my projects are available at https://github.com/Madhan0102")
             st.write("📄 [Resume (1 page)](https://docs.google.com/document/d/0B0W0TfmuQjv7LUNEQV9MRENVVENiWmZZeVpKakt4VjNYMXpj/edit?resourcekey=0-ePV7xs6o32NsvMLrhdz3zw)")
             st.empty()
         with right_column:
@@ -1164,45 +1169,7 @@ elif choose == "Blog":
         from https://www.straitstimes.com/singapore/politics/men-wanted-all-need-toplay-
         a-part-in-pushing-for-gender-equality-says-shanmugam
         """)
-    elif selected == "Reflections on Organising an 850-participant Data Analytics Competition (Extracted Using Google Sites REST API)":
-        with st.echo(code_location="below"):
-            def fetch_google_site_article(url):
-                response = requests.get(url)
-                response.raise_for_status()
-
-                soup = BeautifulSoup(response.text, "html.parser")
-                content = soup.find('div', class_='UtePc RCETm')  # You may need to inspect the Google Site source and adjust the class name
-
-                return str(content)
-            def arrange_images_side_by_side(html_content):
-                soup = BeautifulSoup(html_content, "html.parser")
-                images = soup.find_all("img")
-
-                i = 0
-                while i < len(images) - 1:
-                    current_image = images[i]
-                    next_image = images[i + 1]
-
-                    # Check if the next image is an immediate sibling
-                    if current_image.find_next_sibling() == next_image:
-                        container = soup.new_tag("div", style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center;")
-                        current_image.wrap(container)
-                        next_image.wrap(container)
-
-                        # Set the same height for both images and add a little margin for better centering
-                        current_image['style'] = "height: 200px; margin: auto;"
-                        next_image['style'] = "height: 200px; margin: auto;"
-
-                        # Update the images list
-                        images = soup.find_all("img")
-                    i += 1
-
-                return str(soup)
-            url = "https://sites.google.com/view/nussds/articles/reflections-about-dac?authuser=0"
-            content = fetch_google_site_article(url)
-            modified_content = arrange_images_side_by_side(content)
-            st.write("*The content of this article was extracted using `requests` and `BeautifulSoup`, along with the Google Sites REST API. Thus, there may be some formatting and alignment issues, especially for the images and/or video featured. A code block will also be shown at the bottom of this article to demonstrate how the REST API was used with the respective libraries to extract the content from the Google Sites webpage*")
-            st.markdown(modified_content, unsafe_allow_html=True)
+    
     elif selected == "Reflections on Organising an 850-participant Data Analytics Competition (Formatted Version)":
         st.subheader("Reflections on Organising an 850-participant Data Analytics Competition (Formatted Version)")
         st.write("February 18, 2022 | [Article](https://sites.google.com/view/nussds/articles/reflections-about-dac?authuser=0&pli=1)")
@@ -1345,26 +1312,7 @@ elif choose == "Blog":
         *Harry Chang is the Marketing Director of the NUS Statistics and Data Science Society (AY21/22)*       
         """)
 
-    elif selected == "Worsened health disparities based on ethnicity and gender due to COVID-19":
-        st.subheader("Worsened health disparities based on ethnicity and gender due to COVID-19")
-        st.write("November 12, 2021 | [Essays]()")
-        st.markdown("""
-        COVID-19 has worsened health disparities within countries based on ethnicity, as the latter often corresponded to socioeconomic status (SES) levels. In general, lower-income minorities are more prone to chronic illnesses and would require more care. This is especially true for illegal immigrants who tend to avoid local healthcare facilities altogether to prevent future deportation. For instance, in the US, African-American and Hispanic minorities are more probable in living in congested environments and working in blue-collar jobs compared to the Caucasian majority. These minorities tend to travel by bus or train with large crowds, as many of them do not own private vehicles. By considering such conditions, these individuals would be more likely to fall ill and even contract airborne illnesses, including COVID-19 (Lopez, 2021). Furthermore, recent COVID-19 data has shown that mortality and hospitalisation rates have an association with Black or Brown ethnicities, also commonly described as the “ethnicity effect”. US hospitalisation rates were much higher amongst the African-Americans (1.8) and Hispanics (1.6) compared to the Whites (0.5) when considering these ethnicities’ prevalence ratios (Hughes et al., 2021). It was also reported in July 2020 that 1.6 million Hispanics in the US were deprived of their healthcare coverage due to COVID-19 (Gangopadhyaya et al., 2020). As the aforementioned argument demonstrated that ethnicity is often stereotyped as an SES indicator, it is proven that ethnic minorities within countries generally have poorer health outcomes. Therefore, COVID-19 has indeed widened the health disparities in terms of ethnicity within countries, particularly when comparing the Whites and the Blacks/Browns.
-        
-        COVID-19 has also widened health disparities within countries based on gender. Traditionally, women would tend to be at a physical disadvantage compared to males, often leading to a greater risk of undergoing various health problems for the former. Based on biological research, women have a higher chance of experiencing musculoskeletal diseases including osteoporosis, and subsequently cardiovascular health problems as compared to men. This gender health disparity is further exacerbated especially with the introduction of lockdowns and travel restrictions due to COVID-19, limiting the healthcare required for treatment, especially amongst females (Guerrina, 2021). Besides physical well-being, the mental health aspect has also been adversely affected especially amongst women as compared to men. In a 2020 Jordan study, research has revealed that almost 40% of locals have experienced anxiety from COVID-19 related quarantines. Amongst these individuals, data has showed “that psychological stress levels were significantly higher in women, especially in unmarried or younger than 50 years” (Massad et al, 2020). In the UK, it was also discovered that domestic violence rates have more than doubled due to the COVID-19 pandemic. The typical pre-pandemic death rate of about 6 deaths (of women and children) per month due to such violence peaked at 16 during the first month of lockdown in the country (Bambra et al., 2021). Again, this increased domestic violence is often attributed to social isolations which have aggregated the mental well-being of families during the pandemic. In summary, case studies have shown that women are likely to experience more long-term physical and mental health problems than men, and this gender health disparity has evidently increased due to COVID-19.
-        
-        To conclude, the worsening gender health disparity due to COVID-19 is more serious as compared to that of ethnicity. Women, often appointed the role of caregivers to children, are essential in growing our global population of future generations. However, given the fact that approximately 70% of healthcare workers are female worldwide (Salles, 2021), the latter is at a much higher risk of exposure to COVID-19, which would be detrimental to human reproduction in order to maintain or grow the global population due to the lives of females lost to the pandemic. On the other hand, the worsening ethnic health disparity due to COVID-19 would be considered relatively less serious as many governments worldwide are experiencing related issue(s) that are either similar or exactly the same. They can collaborate with each other in an international forum and come up with a general solution, before tweaking them based on their respective contexts to help close this ethnic gap in their individual countries.
-
-        References:
-
-        1. Lopez, L., III MD. (2021). Racial and Ethnic Health Disparities Related to COVID-19. Health Disparities | JAMA | JAMA Network. https://jamanetwork.com/journals/jama/fullarticle/2775687 
-        2. Hughes, G. D., Mbamalu, O. N., Okonji, C. O., & Puoane, T. R. (2021). The Impact of Health Disparities on COVID-19 Outcomes: Early Findings from a High-Income Country and Two Middle-Income Countries. Journal of racial and ethnic health disparities, 1–8. Advance online publication. https://doi.org/10.1007/s40615-021-00999-5 
-        3. Gangopadhyaya, A., Karpman, M., & Aarons, J. (2020). As the COVID-19 Recession Extended Into the Summer of 2020, More Than 3 Million Adults Lost Employer-Sponsored Health Insurance Coverage and 2 Million Became Uninsured. RWJF. https://www.rwjf.org/en/library/research/2020/09/as-covid-19-recession-extended-into-summer-2020-more-than-3-million-lost-employer-sponsored-health-insurance.html 
-        4. Guerrina, R. (2021). Health and Gender Inequalities of the COVID-19 Pandemic: Adverse Impacts on Women’s Health, Wealth and Social Welfare. Frontiers. https://www.frontiersin.org/articles/10.3389/fgwh.2021.670310/full#B29 
-        5. Massad, I., Al-Taher, R., Massad, F., Al-Sabbagh, M. Q., Haddad, M., & Abufaraj, M. (2020). The impact of the COVID-19 pandemic on mental health: early quarantine-related anxiety and its correlates among Jordanians. Eastern Mediterranean Health Journal, 26(10), 1165-1172. https://doi.org/10.26719/emhj.20.115
-        6. Bambra, C., Albani, V., & Franklin, P. (2021). COVID-19 and the gender health paradox. Scandinavian Journal of Public Health, 49(1), 17-26. https://journals.sagepub.com/doi/pdf/10.1177/1403494820975604 
-        7. Salles, A. (2021). COVID has worsened gender disparities, especially for women of color. The Clayman Institute for Gender Research. https://gender.stanford.edu/news-publications/gender-news/covid-has-worsened-gender-disparities-especially-women-color-heres 
-        """)
+    
     
     elif selected == "Obstacles in promoting healthy eating habits":
         st.subheader("Obstacles in promoting healthy eating habits")
