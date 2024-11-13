@@ -877,11 +877,10 @@ elif choose == "Competitions":
         with image_column:
             st.image(img_shopee)
         with text_column:
-            st.subheader("[Shopee Product and Design Challenge 2021](https://careers.shopee.sg/event-detail/396)")
-            st.write("Redesigned user interface of Shopee mobile app using Figma to reduce clutter and increase user utilization of in-app rewards")
-            #st.write("[Figma Prototype](https://www.figma.com/proto/3UXT29N1RgVGDUlSBeWcPN/UI-Prototype-1?node-id=18-3&viewport=-675%2C231%2C0.32458001375198364&scaling=scale-down) | [Pitch Deck](https://drive.google.com/file/d/12qnveB-SMjG_gF_gwNj3Nr-JsKeyKd6g/view)")
-            mention(label="Figma", icon="📱", url="https://www.figma.com/proto/3UXT29N1RgVGDUlSBeWcPN/UI-Prototype-1?node-id=18-3&viewport=-675%2C231%2C0.32458001375198364&scaling=scale-down",)
-            
+            st.subheader("epublic Day & Bharathiar Day Zonal Sports & Tournaments (2006-2007)")
+            st.write("Pollachi Educational District Secondary, Matric, and Higher Secondary Schools Athletic Association")
+            st.write("Represented Government Higher Secondary School, Muthugoundanur in the Senior Category for Pollachi West Zone.")
+        
     
 elif choose =="Certificate":
     st.header("Certificate")
@@ -1025,13 +1024,8 @@ elif choose =="Certificate":
     
 elif choose == "Blog":
     st.header("Blog")
-    selected_options = ["Overview", "Article & Essay List",
-    #"“It’s not pink, it’s salmon” – Why I returned to my previous start-up for FREE", 
-                        "Mayans MC – Season 5 Detailed Preview",
-                        "Finding success as an outlier (Extracted Using Wordpress REST API)",
-                        "Finding success as an outlier (Formatted Version)", 
-                        "Should the statue of Sir Stamford Raffles disappear for good?",
-                        "Should the Women's Charter replace one of the existing ten objects in the module?", 
+    selected_options = ["Overview",
+    #"“It’s not pink, it’s salmon” – Why I returned to my previous start-up for FREE",  
                         "Does gender inequality still have a place in Singapore's society today?", 
                         "Reflections on Organising an 850-participant Data Analytics Competition (Extracted Using Google Sites REST API)",
                         "Reflections on Organising an 850-participant Data Analytics Competition (Formatted Version)",
@@ -1054,430 +1048,10 @@ elif choose == "Blog":
 
         In this section, you will be able to read some of my finest write-ups from my university experiences, based on topics varying from science to politics. For those looking forward to a good read, enjoy!
         """)
-
-    elif selected == "Article & Essay List":
-        st.subheader("Article & Essay List")
-        #with st.container():
-            #text_column, image_column = st.columns((3,1))
-            #with image_column:
-                #st.image(img_qb)
-            #with text_column:
-                #st.subheader("“It’s not pink, it’s salmon” – Why I returned to my previous start-up for FREE")
-                #st.write("*May 21, 2023* | [*Article*](https://antcabbage.wordpress.com/2023/05/21/its-not-pink-its-salmon-why-i-chose-to-return-to-my-previous-start-up-for-free/)")
-                #st.write("A personal reflection explaining why I returned to my former start-up to diversify my experiences")
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_mayans)
-            with text_column:
-                st.subheader("Mayans MC - Season 5 Detailed Preview")
-                st.write("*May 13, 2023* | [*Article*](https://antcabbage.wordpress.com/2023/05/13/mayans-mc-season-5-detailed-preview/)")
-                st.write("A preview of the fifth and final season Mayans MC, along with its similarities with Sons of Anarchy")
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_outlier)
-            with text_column:
-                st.subheader("Finding success as an outlier")
-                st.write("*April 12, 2023* | [*Article*](https://antcabbage.wordpress.com/2023/04/12/finding-success-as-an-outlier/)")
-                st.write("A personal reflection of my tumultous undergraduate journey so far - and how I finally found my resolve")
-                #st.write("[Article](https://antcabbage.wordpress.com/2023/04/12/finding-success-as-an-outlier/)")       
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_raffles)
-            with text_column:
-                st.subheader("Essays for Final Test - GES1037: A History of Singapore in Ten Objects")
-                st.write("*April 29, 2022* | [*Essays*](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Take%20Home%20Test.pdf)")
-                st.markdown("""
-                Essays written within 24-hour window in Academic Year 2021/22 Semester 2:
-                - Q4: Should the statue of Sir Stamford Raffles disappear for good?
-                - Q6: Should the Women's Charter replace one of the existing ten objects in the module? 
-                """)       
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_gender)
-            with text_column:
-                st.subheader("Does gender inequality still have a place in Singapore's society today?")
-                st.write("*April 2, 2022* | [*Term Paper*](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Term%20Paper.pdf)")
-                st.markdown("""
-                Term paper submitted for the module GES1037: A History of Singapore in Ten Objects in Academic Year 2021/22 Semester 2
-                """)       
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_dac)
-            with text_column:
-                st.subheader("Reflections on Organising an 850-participant Data Analytics Competition")
-                st.write("*February 18, 2022* | [*Article*](https://sites.google.com/view/nussds/articles/reflections-about-dac?authuser=0&pli=1)")
-                st.markdown("""
-                A personal reflection of organising a large-scale online competition over the course of 6 months - co-written with [Axel Lau](https://www.linkedin.com/in/axel-lau/)
-                """)
-                #st.write("[Article](https://sites.google.com/view/nussds/articles/reflections-about-dac?authuser=0&pli=1)")
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_covid)
-            with text_column:
-                st.subheader("Essays for Final Assignment - GEH1049: Public Health in Action")
-                st.write("*November 12, 2021* | [*Essays*](https://github.com/harrychangjr/geh1049/blob/main/GEH1049%20Final%20Assignment.pdf)")
-                st.markdown("""
-                Essays written in Academic Year 2021/22 Semester 1:
-                - Q1: Worsened health disparities based on ethnicity and gender due to COVID-19
-                - Q2: Obstacles in promoting healthy eating habits
-                - Q3: Role of healthcare data analytics in managing COVID-19
-                """)
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_hci)
-            with text_column:
-                st.subheader("Evaluating 'Chinese Privilege' in Singapore - Special Assisted Plan Schools")
-                st.write("*April 29, 2021* | [*Final Essay*](https://github.com/harrychangjr/ges1010/blob/main/GES1010%20Final%20Essay%20A0201825N.pdf)")
-                st.markdown("""
-                Final essay submitted for the module GES1010: Nation-building in Singapore in Academic Year 2020/21 Semester 2
-                """)      
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_wordcloud)
-            with text_column:
-                st.subheader("Analysing usefulness of word clouds in mental health studies")
-                st.write("*March 5, 2021* | [*Essay*](https://github.com/harrychangjr/get1030/blob/main/A0201825N%20GET1030%20Individual%20Assignment%20Final.pdf)")
-                st.markdown("""
-                Individual assignment submitted for the module GET1030: Computers and the Humanities in Academic Year 2020/21 Semester 2
-                """)
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_taste)
-            with text_column:
-                st.subheader("Investigating the relationship between culture and sweet-sour taste interactions")
-                st.write("*October 31, 2020* | [*Article*](https://github.com/harrychangjr/sp1541-nlp/blob/main/Originals/SP1541%20NA2.pdf)")
-                st.write("*Are we correct to stereotype taste perceptions and preferences based on different cultures?*")
-                st.write("Science news article submitted for the module SP1541: Exploring Science Communication through Popular Science in Academic Year 2020/21 Semester 1")      
-        with st.container():
-            text_column, image_column = st.columns((3,1))
-            with image_column:
-                st.image(img_measles)
-            with text_column:
-                st.subheader("Timing vaccination campaign to reduce measles infections")
-                st.write("*September 30, 2020* | [*Article*](https://github.com/harrychangjr/sp1541-nlp/blob/main/Originals/SP1541%20NA1.pdf)")
-                st.write("*Despite having a vaccine that is readily accessible, measles cases and deaths are still surging worldwide, especially in recent years. Why is this so and are there any long-term solutions to resolve this?*")
-                st.write("Science news article submitted for the module SP1541: Exploring Science Communication through Popular Science in Academic Year 2020/21 Semester 1")
-    elif selected == "Mayans MC – Season 5 Detailed Preview":
-        with st.echo(code_location="below"):
-            import streamlit as st
-            import requests
-            from bs4 import BeautifulSoup
-
-            def arrange_images_side_by_side(html_content):
-                soup = BeautifulSoup(html_content, "html.parser")
-                images = soup.find_all("img")
-
-                i = 0
-                while i < len(images) - 1:
-                    current_image = images[i]
-                    next_image = images[i + 1]
-
-                    current_figure = current_image.find_parent("figure")
-                    next_figure = next_image.find_parent("figure")
-
-                    # Check if the next image is an immediate sibling
-                    if current_figure and next_figure and current_figure.find_next_sibling() == next_figure:
-                        container = soup.new_tag("div", style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center;")
-                        current_figure.wrap(container)
-                        next_figure.wrap(container)
-
-                        # Set the same height for both images and add a little margin for better centering
-                        current_image['style'] = "height: 400px; margin: auto;"
-                        next_image['style'] = "height: 400px; margin: auto;"
-
-                        # Update the images list
-                        images = soup.find_all("img")
-                    i += 1
-
-                return str(soup)
-
-            def get_post_by_id(url, post_id):
-                site_url = url.replace("https://", "").replace("http://", "")
-                response = requests.get(f"https://public-api.wordpress.com/wp/v2/sites/{site_url}/posts/{post_id}?_embed")
-                response.raise_for_status()
-                return response.json()
-
-            url = "https://antcabbage.wordpress.com"
-            post_id = 83
-            post = get_post_by_id(url, post_id)
-
-            post_title = post["title"]["rendered"]
-            post_content = post["content"]["rendered"]
-            soup = BeautifulSoup(post_content, "html.parser")
-            clean_post_content = soup.get_text()
-            st.subheader(post_title)
-            st.write("May 13, 2023 | [Article](https://antcabbage.wordpress.com/2023/05/13/mayans-mc-season-5-detailed-preview/)")
-            st.write("*The content of this article was extracted using `requests` and `BeautifulSoup`, along with the Worpress REST API. Thus, there may be some formatting and alignment issues, especially for the images and/or video featured. A code block will also be shown at the bottom of this article to demonstrate how the REST API was used with the respective libraries to extract the content from the Wordpress site*")
-            modified_content = arrange_images_side_by_side(post_content)
-            st.markdown(modified_content, unsafe_allow_html=True)
-    elif selected == "Finding success as an outlier (Extracted Using Wordpress REST API)":
-        with st.echo(code_location="below"):
-            import streamlit as st
-            import requests
-            from bs4 import BeautifulSoup
-
-            def arrange_images_side_by_side(html_content):
-                soup = BeautifulSoup(html_content, "html.parser")
-                images = soup.find_all("img")
-
-                i = 0
-                while i < len(images) - 1:
-                    current_image = images[i]
-                    next_image = images[i + 1]
-
-                    current_figure = current_image.find_parent("figure")
-                    next_figure = next_image.find_parent("figure")
-
-                    # Check if the next image is an immediate sibling
-                    if current_figure and next_figure and current_figure.find_next_sibling() == next_figure:
-                        container = soup.new_tag("div", style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; align-items: center;")
-                        current_figure.wrap(container)
-                        next_figure.wrap(container)
-
-                        # Set the same height for both images and add a little margin for better centering
-                        current_image['style'] = "height: 400px; margin: auto;"
-                        next_image['style'] = "height: 400px; margin: auto;"
-
-                        # Update the images list
-                        images = soup.find_all("img")
-                    i += 1
-
-                return str(soup)
-
-            def get_post_by_id(url, post_id):
-                site_url = url.replace("https://", "").replace("http://", "")
-                response = requests.get(f"https://public-api.wordpress.com/wp/v2/sites/{site_url}/posts/{post_id}?_embed")
-                response.raise_for_status()
-                return response.json()
-
-            url = "https://antcabbage.wordpress.com"
-            post_id = 72
-            post = get_post_by_id(url, post_id)
-
-            post_title = post["title"]["rendered"]
-            post_content = post["content"]["rendered"]
-            soup = BeautifulSoup(post_content, "html.parser")
-            clean_post_content = soup.get_text()
-            st.subheader(post_title)
-            st.write("April 12, 2023 | [Article](https://antcabbage.wordpress.com/2023/04/12/finding-success-as-an-outlier/)")
-            st.write("*The content of this article was extracted using `requests` and `BeautifulSoup`, along with the Worpress REST API. Thus, there may be some formatting and alignment issues, especially for the images and/or video featured. A code block will also be shown at the bottom of this article to demonstrate how the REST API was used with the respective libraries to extract the content from the Wordpress site*")
-            modified_content = arrange_images_side_by_side(post_content)
-            st.markdown(modified_content, unsafe_allow_html=True)
-        
-        
-    elif selected == "Finding success as an outlier (Formatted Version)":
-        st.subheader("Finding success as an outlier (Formatted Version)")
-        st.write("April 12, 2023 | [Article](https://antcabbage.wordpress.com/2023/04/12/finding-success-as-an-outlier/)")
-        st.write("*The content of this article was manually copied and pasted from the original site, along with manually embeedded media and captions for formatting purposes*")
-        st.markdown("""
-        > Outlier – a person or thing differing from all other members of a particular group or set.
-
-        This was what one of my recent interviewers defined himself as, when I asked him more about his experiences before working at his current position. He elaborated that he has been working at his current company for over 20 years upon graduation, an achievement he takes pride in which also exemplifies his undying passion for his job. This is something that most employees do not normally do, as it is common to switch job environments after every few years to revitalize their careers.
-
-        The conversation that I had with him really hit me that day – because in some way, I would also define myself as an outlier, especially in my university life. Having originally intended to graduate this semester, I would say that I have experienced many ups and downs throughout these past 4 years. From my many mistakes that have resulted in tumultuous phases, to particular happy moments and achievements that I should have cherished more dearly, perhaps it was indeed fate that has shaped me to who I am today.
-
-        Blessed with the privilege of good academics throughout junior college, I originally intended to pursue a degree in chemical engineering, particularly due to my initial fascination for pharmaceuticals and how they could enhance our bodies. During my national service, however, a new course for pharmaceutical science was launched in my school, and given my interest back then, I took a leap of faith and applied for a switch before I formally commenced my university education. 
-
-        Fast forward to my first semester, and I gradually realized that I had made one of the biggest mistakes of my life. I discovered that I was merely blinded by the potential career prospects of this new degree, which has yet to prove itself with a tenured track record. Without seriously considering the pros and cons, I would dare say that I foolishly embarked on this journey without prior preparation and research, resulting in me eventually flunking that semester altogether.
-
-        “But you have all the potential in the world” – said some of my peers and mentors, who were then envious of me being in this prestigious course. Regardless of whether I was merely being motivated to complete a particular task, or that someone genuinely identified the potential in me, I eventually realized that this quote alone made me hate a lot about myself back then, especially whenever I flunked. I would often feel an overwhelming sense of disappointment whenever I felt that I fell short of my own (high) expectations, which were imposed by this “potential” I thought I had. 
-
-        In a way, I was humbled by the experience. Thinking that the competition in junior college was tough enough, having the opportunity to meet different varieties of students changed the game for me. Working and interacting with many youths who came from different backgrounds – including student entrepreneurs, future researchers and national athletes, I realized that they were much more driven, passionate and hardworking at their craft than me, and for the right reasons. Unlike me, it was clear that they had long term plans in mind to hone their skills in order to pursue their ideal careers in the future.
-
-        And so, after taking my second semester off with a leave of absence, I decided to embark on another journey, this time restarting as a data science undergraduate. Knowing that this would delay my graduation and my tuition fees would be higher for my extended final year, I prayed that the journey would be smoother this time round. Although this was definitely not the case due the vastly different disciplines between the 2 degrees, I was privileged to be able to experience a certain degree of success over the next 2 years, even though my academic results signified otherwise. With my expectations being lowered this time round, I felt that at the very least, I was enjoying myself more in whatever I was pursuing.
-
-        Unfortunately, I made the mistake of succumbing to peer pressure once again, this time pursuing too many commitments that I eventually could not handle, resulting in dire consequences both in my academics and interpersonal relationships. Being blinded by greed and ego once more, I knew that I had to take a step back and reflect on what really went wrong, having made the same life mistake multiple times now, which was what I have been doing throughout this semester.
-
-        This was when I truly understood who I really am – one who merely wants to experience life without any comparison to others. I have discovered that the only real critic that I need to value is myself, and develop the self-awareness of whether I am truly enjoying whatever I am doing, or at least fully commit to the purpose of my actions. Not saying that I should downright ignore constructive criticism and opinions against me, but rather question myself from time to time whether their opinions really matter at any particular moment. In addition, self-care is also what I am trying to prioritize, where I should learn to take breaks when necessary.
-
-        As Israel Adesanya said after his most recent bout against Alex Pereira, a mixed martial artist who he lost to 3 times (in both MMA and kickboxing) beforehand to regain the UFC Middleweight Championship:
-
-        > “I hope every one of you — behind the screen and in this arena — can feel this level of happiness, just one time in your life. But guess what, you will never feel this level of happiness if you don’t go for something in your own life. When they knock you down, when they try and sh*t on you… and try and put their foot on your neck. If you stay down, you will never ever get that resolve. Fortify your mind!”
-
-        > **Israel Adesanya**""")
-        with st.container():
-            col1, col2, col3 = st.columns((1,3,1))
-            with col1:
-                st.empty()
-            with col2:
-                st.video("https://www.youtube.com/watch?v=ZNoODFgTq3c")
-            with col3:
-                st.empty()
-        st.markdown("""
-        Likewise, I have learnt not to harp on my mistakes for too long, otherwise this would impede me in the long run, and I would never be able to bounce back from what I have done. It is indeed important to forgive yourself and try to strive for the better, even though others may doubt so.
-
-        So who am I – really? To answer this, I would compare myself to 2 characters that I have enjoyed following on television. The first would be Alex Moran, the protagonist of sitcom Blue Mountain State. His character is that of a second-string quarterback for the majority of the show, only aiming to be an “Average Joe” after he graduates from college. The second would be Orange Cassidy, a professional wrestler whose gimmick is based on being the “King of Sloth Style”, otherwise only trying to win when necessary, but doesn’t bother otherwise.
-        """)
-    
-    elif selected == "Should the statue of Sir Stamford Raffles disappear for good?":
-        st.subheader("Should the statue of Sir Stamford Raffles disappear for good?")
-        st.write("April 29, 2022 | [Essays](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Take%20Home%20Test.pdf)")
-        st.markdown("""
-        Sir Stamford Raffles is often credited as the true founder of modern Singapore,
-        having “transformed Singapore from an obscure fishing village to a great seaport and
-        modern metropolis”. To commemorate his legacy, a statue of Raffles was erected by the
-        Singapore government to acknowledge British colonialism as part of the country’s history.
-        As we are now living in the post-colonial era, however, many citizens do not see the need
-        to commemorate this, especially since most of them did not live in the colonial era. Thus,
-        I would agree with the standpoint that the Raffles statue should be taken down for good.
-
-        Firstly, the statue should be taken down due to the possible standpoint that citizens
-        recognise Sang Nila Utama as the true founder of modern Singapore, instead of Sir
-        Stamford Raffles. While Raffles had first landed in Singapore in 1819 that helped shape
-        Singapore to what it is today, Sang Nila Utama had already stepped foot in the country
-        as early as 1299, founding the nation as the Kingdom of Singapura back then. It is
-        important to recognise the story behind how the Malay prince first landed on the land
-        known as Temasek before renaming the land as Singapura. This is especially true
-        considering that the indigenous people in the country were Malays, and it would be a
-        better idea to credit more of Singapore’s history to its geographical neighbours rather than
-        to British colonialism. The introduction of the Singapore Bicentennial in 2019 also
-        acknowledges this, citing that not many Singaporeans knew about the existence of Sang
-        Nila Utama, believing that Raffles was the true founder instead. Given that the Singapore
-        government would want its citizens to better understand Singapore’s history especially
-        before 1819, it would be in its best interest to remove the statue instead, to avoid overacknowledging
-        Raffles’ influence in Singapore’s history.
-        
-        Secondly, the statue should be taken down to avoid misinterpretations that
-        Singapore is still being influenced by British colonialism. While Singapore is no longer a
-        British colony, it still establishes a diplomatic relationship with the United Kingdom,
-        forming various trade and political partnerships between the two countries in the process.
-        Furthermore, Singapore is also a part of the Commonwealth, where many of the member
-        nations are former British colonies. Member nations of this political association enjoy
-        exclusive diplomatic partnerships with one another to boost each other’s economies.
-        However, having the Raffles statue being erected still in Singapore may give an
-        impression that the country still acknowledges the former British empire as its benefactor.
-        This is certainly not the case in today’s context, especially if Singapore wishes to be seen
-        as an independent nation, it should be recognised as an equal to a country such as the
-        United Kingdom, and not as an underling of the latter. As such, removing the statue would
-        help to avoid that misconception.
-
-        Thirdly, by removing the statue of Raffles, I believe that this would truly signify
-        Singapore’s growth from an economic beneficiary in the colonial era to an economic
-        powerhouse in the modern world today. As mentioned in the article attached to this
-        question, Singapore has transformed into a global trading port, experiencing volumes of
-        economic growth every year. While Singapore used to benefit as a trading hub in the past
-        largely due to British rule, the country can now take the next step and help its
-        neighbouring countries to prosper economically together through mutually beneficial
-        trade partnerships. Singapore’s status as an independent and prospering nation can
-        indeed potentially promote the economic growth of the entire Southeast Asian region as
-        well, filling in the shoes of its previous colonial ruler. Thus, removing the statue could be
-        a symbol of Singapore finally emerging from its previous colonial ruler, in order to step up
-        as a strong economic power moving forward.
-
-        To sum up, while Raffles did set the precedent for Singapore to eventually prosper
-        as an economic trading port, it is not necessary for his statue to remain erected in our
-        soil. To many of our ancestors, the colonial era may signify long bouts of hardships and
-        poverty, especially under the rule of the British, which may contribute to local sentiments
-        that the statue is not necessary. Furthermore, almost all Singaporean citizens in our
-        society today did not actually live in the colonial era, making it difficult for them to
-        personally relate to Raffles and his rule back in the 1800s. Therefore, I believe that it is
-        indeed essential for the statue to be eventually removed, so that we can move forward
-        from being recognised as merely a former British colony and write the next chapter in our
-        history as a growing economic power.
-        """)
-    elif selected == "Should the Women's Charter replace one of the existing ten objects in the module?":
-        st.subheader("Should the Women's Charter replace one of the existing ten objects in the module?")
-        st.write("April 29, 2022 | [Essays](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Take%20Home%20Test.pdf)")
-        st.markdown("""
-        In 1961, the Women’s Charter was passed in Singapore Parliament, with the
-        intention to improve and protect the legal rights of women in Singapore. While it was
-        initially designed to ensure greater equality in legal matters such as marriage and
-        housing, this Act has left behind a legacy by inspiring more similar initiatives to be set up
-        in Singapore, including the formation of AWARE to further promote gender equality. Given
-        how the roles of the two genders have evolved throughout the course of our history, I
-        strongly support the idea of including the Women’s Charter as one of the ten featured
-        objects in the future iterations of this module.
-
-        For starters, we should first understand why this Act was introduced in the first
-        place. During the colonial era in Singapore, females were confined to the role of
-        housewife and caregiver, given the traditional religious and socio-cultural norms at that
-        point of time. An example of this would be the membership system in the Singapore
-        Recreation Club, with females only being allowed to register as members in 1956 (73
-        years after the club’s founding) to participate in its various sporting and social activities,
-        which were initially only catered to men. In contrast, males were seen to be the more
-        dominant gender especially due to the prevalence of polygamy, reiterating the stance that
-        women were indeed inferior to men at that point of time. Later in the colonial era, the
-        British government introduced the Chinese Protectorate, which mainly focused on
-        protecting women from illegal prostitution. While this only served to preserve the basic
-        human rights of women in the country, this was an acknowledgement that more can be
-        done for women to be treated more equally to men. In a sense, introducing the Women’s
-        Charter could be seen as a step forward from the Chinese Protectorate, as it no longer
-        merely focuses on basic human rights of women, but rather to introduce more legal rights
-        in favour of women, especially in important aspects such as housing, marriage and
-        children.
-
-        While the introduction of the Women’s Charter was indeed successful in eventually
-        banning polygamy by the 1960s, there was a declining interest in sustaining this women’s
-        rights movement afterwards, as its introduction had already achieved its main purpose
-        and there was no incentive to further promote gender equality at that point of time. As a
-        result, an all-male Parliament was eventually formed from 1970 to 1984, with patriarchal
-        policies being introduced once again. These included the announcement of a quota to
-        restrict female medical students, as well as the compulsory offering of home economics
-        as a subject for lower secondary girls. Such acts eventually led to the formation of
-        AWARE in 1985, which set to undo such discriminatory policies against women and
-        promote greater gender equality once again. The introduction of AWARE was indeed a
-        big success, making use of its vision to provide support on various problems largely faced
-        by women, including domestic violence, sexual assault, single parenthood and workplace
-        harassment. As such, I believe that the Women’s Charter, as well as its accompanying
-        history of emphasising the importance of gender equality in the long run, should indeed
-        be an object for this module, so that students recognise its value especially in today’s
-        ever-changing society.
-
-        With regards to which current object should be replaced in favour of the Women’s
-        Charter, however, I believe that the Sound Blaster should be removed as an object of the
-        module. Given the more economic nature of the topic, I feel that the idea of discussing a
-        Singaporean invention does not fit as well as the other objects, especially when this is a
-        module offered by the Department of History in the National University of Singapore.
-        If we were to look back at all the other objects that were taught in this module, be
-        it an artefact from the pre-colonial era (Singapore Stone), a club established during the
-        colonial era (Singapore Recreation Club), or modern objects such as the Kallang Roar
-        and the movie ‘I Not Stupid’, what they have in common is that they have played a
-        significant role in Singapore’s history, and have contributed in forging the Singaporean
-        identity in the process. Looking at the ‘I Not Stupid’ movie for example, it has established
-        a legacy of revamping the current educational system, proving that such filmmaking can
-        be influential in establishing Singapore’s history as a progressing society if done right.
-        While I recognise and applaud the efforts of Sim Wong Hoo and how his innovation
-        of the Sound Blaster technology had contributed to our economy, I feel that this invention
-        is not unique enough to be recognised as an ‘object’ of Singapore’s history. Such
-        advancements in technology are less distinguishable between the different countries in
-        our global economy, especially with many people around the world possibly having the
-        misconception that these inventions largely only occur in larger countries such as the
-        USA and China. In summary, this invention does not seem as impactful in influencing
-        Singapore’s history compared to the other objects, which explains my decision to exclude
-        this object in favour of the Women’s Charter if possible.
-
-        To conclude, the story of the Women’s Charter and the subsequent formation of
-        AWARE should indeed be included as an object in this module. This has taught us the
-        importance of supporting the movement of gender equality, as well as the consequences
-        of not sustaining such movements in the long run. I believe that this is an important lesson
-        that Singaporeans can learn from, especially with the rising prevalence of women in our
-        local workforce, including those in professional, managerial, executive and technical
-        professions, which is a testament of the changing gender roles in our society today.
-
-        *For context, this module is offered by the Department of History, Faculty of Arts and Social Sciences at the National University of Singapore. The ten objects that exemplify Singapore's rich history are:*
-        1. Singapore Stone
-        2. White Sand
-        3. Abdullah's Story
-        4. Singapore Recreation Club
-        5. Old Ford Factory
-        6. Majulah Singapura
-        7. Block 45, Stirling Road
-        8. Kallang Roar
-        9. Sound Blaster
-        10. I Not Stupid
-        """)
+   
     elif selected == "Does gender inequality still have a place in Singapore's society today?":
         st.subheader("Does gender inequality still have a place in Singapore's society today?")
-        st.write("April 2, 2022 | [Term Paper](https://github.com/harrychangjr/ges1037/blob/main/GES1037%20Term%20Paper.pdf)")
+        st.write("April 2, 2022 | [Term Paper]()")
         st.markdown("""
         On April 24, 2021, a new resolution was passed for women in the Singapore
         Recreation Club (SRC) to be entitled with the same rights and privileges as male
@@ -1773,7 +1347,7 @@ elif choose == "Blog":
 
     elif selected == "Worsened health disparities based on ethnicity and gender due to COVID-19":
         st.subheader("Worsened health disparities based on ethnicity and gender due to COVID-19")
-        st.write("November 12, 2021 | [Essays](https://github.com/harrychangjr/geh1049/blob/main/GEH1049%20Final%20Assignment.pdf)")
+        st.write("November 12, 2021 | [Essays]()")
         st.markdown("""
         COVID-19 has worsened health disparities within countries based on ethnicity, as the latter often corresponded to socioeconomic status (SES) levels. In general, lower-income minorities are more prone to chronic illnesses and would require more care. This is especially true for illegal immigrants who tend to avoid local healthcare facilities altogether to prevent future deportation. For instance, in the US, African-American and Hispanic minorities are more probable in living in congested environments and working in blue-collar jobs compared to the Caucasian majority. These minorities tend to travel by bus or train with large crowds, as many of them do not own private vehicles. By considering such conditions, these individuals would be more likely to fall ill and even contract airborne illnesses, including COVID-19 (Lopez, 2021). Furthermore, recent COVID-19 data has shown that mortality and hospitalisation rates have an association with Black or Brown ethnicities, also commonly described as the “ethnicity effect”. US hospitalisation rates were much higher amongst the African-Americans (1.8) and Hispanics (1.6) compared to the Whites (0.5) when considering these ethnicities’ prevalence ratios (Hughes et al., 2021). It was also reported in July 2020 that 1.6 million Hispanics in the US were deprived of their healthcare coverage due to COVID-19 (Gangopadhyaya et al., 2020). As the aforementioned argument demonstrated that ethnicity is often stereotyped as an SES indicator, it is proven that ethnic minorities within countries generally have poorer health outcomes. Therefore, COVID-19 has indeed widened the health disparities in terms of ethnicity within countries, particularly when comparing the Whites and the Blacks/Browns.
         
@@ -1794,7 +1368,7 @@ elif choose == "Blog":
     
     elif selected == "Obstacles in promoting healthy eating habits":
         st.subheader("Obstacles in promoting healthy eating habits")
-        st.write("November 12, 2021 | [Essays](https://github.com/harrychangjr/geh1049/blob/main/GEH1049%20Final%20Assignment.pdf)")
+        st.write("November 12, 2021 | [Essays]()")
         st.markdown("""
         An obstacle that may undermine national efforts aimed at reducing childhood obesity in high-income countries would be the lack of support by parents to cultivate healthy eating habits amongst children. As children are deemed rationally unprepared to make their own decisions at a young age, the actions of their parents are imperative in influencing their children’s behaviours. This is especially the case when children view their parents as their role models who they would like to develop similar traits with when they grow up in the future. In a 2019 Singaporean study, parents conveyed various difficulties in trying to promote healthy eating habits to their children. Parents preoccupied with work and other commitments do not have adequate time to prepare healthy food for their children. They would often opt to eat outside or order takeaways instead of consuming home-cooked meals, which increases the likelihood of fast food consumption instead. Furthermore, they cited the dietary preferences for less healthy food by either their spouse or their own parents that would compromise their own efforts in promoting healthy eating to their children (Chong, 2021). These observations are also similar in other high-income countries in the European Union (EU), including Germany and Italy. In a 2018 online survey targeted at 187 policy-makers and stakeholders from 12 EU member states, 67.6% of the respondents agreed that the lack of parental support contributed to the prevention of childhood obesity, ranking it amongst the top three reasons from a possible nine listed in the survey (Abu-Omar et al., 2018).
     
@@ -1812,7 +1386,7 @@ elif choose == "Blog":
 
     elif selected == "Role of healthcare data analytics in managing COVID-19":
         st.subheader("Role of healthcare data analytics in managing COVID-19")
-        st.write("November 12, 2021 | [Essays](https://github.com/harrychangjr/geh1049/blob/main/GEH1049%20Final%20Assignment.pdf)")   
+        st.write("November 12, 2021 | [Essays]()")   
         st.markdown("""
         Contact tracing was one method which demonstrated the usage of healthcare data analytics to help tackle the pandemic. The idea behind contact tracing revolves around the usage of mobile applications for users to transmit their localisation data as unchangeable time-stamped records into a common database. This database will then be used as an investigation system by governments to trace persons who either had contact with newly infected patients or had frequented high-risk areas. Collecting such data also ensures that users suspected of contracting COVID-19 are not contravening self-isolation protocols, as their locations are constantly monitored to deter them from doing so (Benreguia et al., 2020). Moreover, Asian countries such as Taiwan and South Korea have resorted to tracking their citizens’ movements without the latter’s consent to maximise the effectiveness of contact tracing efforts (Nageshwaran et al., 2021). In particular, the TraceTogether mobile application, developed in Singapore, has greatly assisted the country in identifying suspected and confirmed COVID-19 cases. Using this application involves the exchange of Bluetooth signals between phones within range of each other to discover nearby users. With the increasing number of confirmed cases in Singapore, the usage of TraceTogether application was eventually made compulsory for users to check-in when visiting high traffic areas such as shopping centres and workplaces using the in-built SafeEntry system within the application for them to monitor their whereabouts. The local authorities commended TraceTogether for helping to “reduce the average time taken to contact trace from four days to less than 1.5 days” (Low, 2021), indicating its usefulness in Singapore’s battle against COVID-19.
         
@@ -1832,7 +1406,7 @@ elif choose == "Blog":
         """)
     elif selected == "Evaluating 'Chinese Privilege' in Singapore: Special Assisted Plan Schools":
         st.subheader("Evaluating 'Chinese Privilege' in Singapore - Special Assisted Plan Schools")
-        st.write("April 29, 2021 | [Final Essay](https://github.com/harrychangjr/ges1010/blob/main/GES1010%20Final%20Essay%20A0201825N.pdf)")
+        st.write("April 29, 2021 | [Final Essay]()")
         st.markdown("""
         In 1979, the Special Assistance Plan (SAP) was established in order to preserve the heritage of top Chinese schools, nurture traditional Chinese values in students and promote bilingualism. Today, critics question the relevance of SAP schools, as they claim that these schools no longer fulfil their original goals. Instead, they cite these schools as an example of “Chinese privilege” in Singapore, which is defined as a scenario where “Chinese-Singaporeans, unlike minority Malays, Indians, or Eurasians, enjoy exclusive racial advantages that position them as Singapore’s cultural, economic, political, and social core”. In my opinion, SAP has reinforced “Chinese privilege” in Singapore as it has been perceived by Singaporeans to promote racial segregation and social inequality instead.
 
@@ -1861,7 +1435,6 @@ elif choose == "Blog":
         """)
     elif selected == "Analysing usefulness of word clouds in mental health studies":
         st.subheader("Analysing usefulness of word clouds in mental health studies")
-        st.write("March 5, 2021 | [Essay](https://github.com/harrychangjr/get1030/blob/main/A0201825N%20GET1030%20Individual%20Assignment%20Final.pdf)")
         st.markdown("""
         For this assignment, I will be analysing word clouds from a research article published in
         2019, which aimed to understand and measure psychological stress levels based on social
@@ -1965,7 +1538,7 @@ elif choose == "Blog":
         """)
     elif selected == "Investigating the relationship between culture and sweet-sour taste interactions":
         st.subheader("Investigating the relationship between culture and sweet-sour taste interactions")
-        st.write("October 31, 2020 | [Article](https://github.com/harrychangjr/sp1541-nlp/blob/main/Originals/SP1541%20NA2.pdf)")
+        st.write("October 31, 2020 | [Article])")
         st.write("*Are we correct to stereotype taste perceptions and preferences based on different cultures?*")
         st.markdown("""
         Imagine that you are drinking a glass of margarita. After that first sip, you find that your drink is too sour. You then lick some of the salt from the rim of the glass before taking a second sip. You find that now, the margarita tastes less sour! This is a perfect example of a taste interaction between different taste qualities. 
@@ -2017,7 +1590,7 @@ elif choose == "Blog":
         """)
     elif selected == "Timing vaccination campaign to reduce measles infections":
         st.subheader("Timing vaccination campaign to reduce measles infections")
-        st.write("September 30, 2020 | [Article](https://github.com/harrychangjr/sp1541-nlp/blob/main/Originals/SP1541%20NA1.pdf)")
+        st.write("September 30, 2020 | [Article]()")
         st.write("*Despite having a vaccine that is readily accessible, measles cases and deaths are still surging worldwide, especially in recent years. Why is this so and are there any long-term solutions to resolve this?*")
         st.markdown("""
         According to an update from the World Health Organisation (WHO), nearly 10 million cases of measles were reported in the year 2018. During that year, more than 140,000 people worldwide have died from the disease. In addition, reported measles cases have surged internationally in devastating outbreaks across different regions.
