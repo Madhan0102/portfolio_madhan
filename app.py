@@ -88,7 +88,7 @@ def pdf_link(pdf_url, link_text="Click here to view PDF"):
 # Assets for about me
 img_utown = Image.open("images/about.jpg")
 img_lh = Image.open("images/20230720_121643.jpg")
-img_ifg = Image.open("images/ifg.jpg")
+img_ifg = Image.open("images/aboutme.jpg")
 #Assets for competitions
 img_lite = Image.open("images/a.jpg")
 img_lifehack2 = Image.open("images/c.jpg")
