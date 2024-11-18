@@ -256,10 +256,10 @@ with st.sidebar:
         "nav-link-selected": {"background-color": "#cfcfb4"},
     }
     )
-    youtube_url = ""
+    youtube_url = "https://www.youtube.com/@madhankumar.n3381"
     linkedin_url = "https://www.linkedin.com/in/madhan0102"
     github_url = "https://github.com/Madhan0102"
-    wordpress_url = ""
+    wordpress_url = "https://madhan1991.wordpress.com/"
     email_url = "connectmadhan01@gmail.com"
     with st.container():
         l, m, r = st.columns((0.11,2,0.1))
