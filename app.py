@@ -772,7 +772,6 @@ elif choose =="Certificate":
             st.empty()
         with image_column:
             st.image(images_vol[12])
-
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
