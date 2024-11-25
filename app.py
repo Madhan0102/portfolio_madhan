@@ -125,7 +125,7 @@ images_projects = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gep
 # Assets for volunteering
 image_names_vol = ["fullstack", "PHP", "JAVA", "csclogo", 
                          "nussulogo", "sklogo", "calibre infotech", "Team ads", 
-                         "panads", "NUMPY", "machine", "datascience"]
+                         "panads", "NUMPY", "machine", "datascience","power"]
 images_vol = [Image.open(f"images/{name}.{'jpg' if name not in ('map', 'gephi', 'health') else 'png'}") for name in image_names_vol]
 # Assets for blog
 img_qb = Image.open("images/qb.jpg")
@@ -761,6 +761,21 @@ elif choose =="Certificate":
     with st.container():
         text_column, mid, image_column = st.columns((3,0.4,1))
         with text_column:
+            st.subheader("Power BI Essentials Course ")
+            st.write("*September 23rd to November 18, 2024 *")
+            st.markdown("""
+               Successfully completed the Power BI Essentials Course from Variablz Academy, Cuddalore, on November 18, 2024. The program enhanced my proficiency in creating data-driven dashboards, data modeling, and interactive visualizations. The certification, signed by the Chief Executive Officer, reflects my commitment to continuous learning and advancing my data analysis skills..
+             - "Power BI: Certified by Variablz Academy (November 2024)."
+
+            """)
+        with mid:
+            st.empty()
+        with image_column:
+            st.image(images_vol[12])
+
+    with st.container():
+        text_column, mid, image_column = st.columns((3,0.4,1))
+        with text_column:
             st.subheader("Artificial Intelligence & Data Science")
             st.write("*September 23rd to September 25th, 2024*")
             st.markdown("""
@@ -783,8 +798,6 @@ elif choose =="Certificate":
               - successfully implemented a classification model with 92% accuracy on the MNIST dataset.
               - Mention the issuing organization: "NoviTech R&D Private Limited".
               - Understanding machine learning concepts
-
-
             """)
         with mid:
             st.empty()
