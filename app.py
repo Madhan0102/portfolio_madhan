@@ -309,7 +309,7 @@ elif choose == "Experience":
         with text_column:
             st.subheader("Technical Role (PHP Developer) [AD MEDIA](https://admediacbe.in/)")
             st.subheader("Ad Media – Coimbatore, India")
-            st.write(" Jul 2019 - Jul 2022  ")
+            st.write(" Jul 2019 - dec 2022  ")
             st.markdown("""
             -  Developed and maintained over 20 dynamic websites for clients, focusing on SEO optimization and responsiveness.
             - My responsibilities span a wide range, from developing dynamic websites using PHP to optimizing web content for search engines to improve rankings and drive traffic
