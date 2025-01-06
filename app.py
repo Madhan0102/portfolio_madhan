@@ -282,7 +282,7 @@ if choose == "About Me":
         with left_column:
             st.header("About Me")
             st.subheader("Data Scientist | AI Developer | Machine Learning Enthusiast")
-            st.write("👋🏻 Hi, I'm Madhan! have over 4 years of experience in web development, with a focus on PHP development, website management, SEO, and Google My Business (GMB). My career highlights include:")
+            st.write("👋🏻 Hi, I'm Madhan! have over 6 years of experience in web development, with a focus on PHP development, website management, SEO, and Google My Business (GMB). My career highlights include:")
             st.write("💼 Ad Media (July 2019 – Feb2023): PHP Developer, Website Developer, SEO & GMB Specialist.")
             st.write("🏋🏻 Team Ads (Aug 2017 – Aug 2020): PHP Developer")
             st.write("👨🏼‍💻 Calibre Infotech (Feb 2016 – May 2017): PHP Developer & Website Developer")
