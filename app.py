@@ -1483,7 +1483,7 @@ elif choose == "Blog":
             #st.write("...and now add `?analytics=on` to the URL to see the analytics dashboard 👀")
 
 elif choose == "Resume":   
-    resume_url = "https://docs.google.com/document/d/0B0W0TfmuQjv7LUNEQV9MRENVVENiWmZZeVpKakt4VjNYMXpj/edit?resourcekey=0-ePV7xs6o32NsvMLrhdz3zw"
+    resume_url = "https://drive.google.com/file/d/1qburR-TL4gabqLAQLoDSwy346GiizOYs/view?usp=drive_link"
     st.header("Resume")
     st.write("*In case your current browser cannot display the PDF documents, do refer to the hyperlink below!*")
 
