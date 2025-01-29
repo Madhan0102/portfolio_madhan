@@ -293,7 +293,7 @@ if choose == "About Me":
             st.write("💭 Ideal Career Prospects: Data Analyst, Data Scientist, Data Engineer, Business Intelligence Analyst, Product Manager")
             st.write("📫 How to reach me: [connectmadhan01@gmail.com]")
             st.write("👨‍💻 All of my projects are available at https://github.com/Madhan0102")
-            st.write("📄 [Resume (1 page)](https://docs.google.com/document/d/0B0W0TfmuQjv7LUNEQV9MRENVVENiWmZZeVpKakt4VjNYMXpj/edit?resourcekey=0-ePV7xs6o32NsvMLrhdz3zw)")
+            st.write("📄 [Resume (1 page)](https://drive.google.com/file/d/1qburR-TL4gabqLAQLoDSwy346GiizOYs/view)")
             st.empty()
         with right_column:
             st.image(img_utown)
